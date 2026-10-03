@@ -41,11 +41,20 @@ for (const c of manifest.cases) {
       containerWidth: 80 * 16,
     });
     fs.writeFileSync(path.join(inputsDir, `${c.id}.tex`), c.tex + '\n');
-    fs.writeFileSync(path.join(expectedDir, `${c.id}.svg`), adaptor.outerHTML(node) + '\n');
+    // Pure SVG: strip the <mjx-container> wrapper. The inner <svg> already
+    // carries width/height/viewBox and the vertical-align style.
+    fs.writeFileSync(path.join(expectedDir, `${c.id}.svg`), pureSvg(adaptor.outerHTML(node)) + '\n');
   } catch (e) {
     failed++;
     console.error(`FAIL ${c.id}: ${e.message}`);
   }
+}
+
+// <mjx-container ...><svg ...>...</svg></mjx-container>  ->  <svg ...>...</svg>
+function pureSvg(html) {
+  const m = html.match(/<svg[\s\S]*<\/svg>/);
+  if (!m) throw new Error('no <svg> element in converter output');
+  return m[0];
 }
 
 console.log(`rendered ${manifest.cases.length - failed}/${manifest.cases.length} cases`);

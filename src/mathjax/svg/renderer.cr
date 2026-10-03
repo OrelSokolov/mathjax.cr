@@ -113,9 +113,11 @@ module MathJax::Svg
     end
 
     private def measure_text(text : String, variant : String) : Box
-      width = text.chars.sum { |c| Fonts.width(c, variant) }
-      ascent = text.chars.max_of { |c| Fonts.height(c, variant) }
-      descent = text.chars.max_of { |c| Fonts.depth(c, variant) }
+      chars = text.chars
+      return Box.new(0.0, 0.0, 0.0) if chars.empty? # e.g. empty <mi/> placeholders
+      width = chars.sum { |c| Fonts.width(c, variant) }
+      ascent = chars.max_of { |c| Fonts.height(c, variant) }
+      descent = chars.max_of { |c| Fonts.depth(c, variant) }
       Box.new(width + 0.05, ascent, descent)
     end
 

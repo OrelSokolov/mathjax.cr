@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Crystal
+        uses: crystal-lang/install-crystal@v1
+        with:
+          crystal: "1.21.0"
+
+      - name: Install shards
+        run: shards install || true # stdlib-only shard; no dependencies expected
+
+      - name: Run specs (incl. MathML + SVG dataset thresholds)
+        run: crystal spec --order=random
+
+      - name: CLI smoke test
+        run: |
+          echo '\frac{-b\pm\sqrt{b^2-4ac}}{2a}' | crystal run src/cli.cr
+          echo '\frac{1}{2}' | crystal run src/cli.cr -- --svg | head -c 100

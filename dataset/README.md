@@ -1,54 +1,57 @@
 # Golden dataset (TeX → SVG)
 
-1000 формул для сравнения SVG-вывода `mathjax.cr` с оракулом —
-**оригинальным MathJax v3**.
+[Русская версия](README.ru.md)
 
-Состав:
+1000 formulas for comparing the `mathjax.cr` SVG output against the
+oracle — **the original MathJax v3**.
 
-- **40 курируемых** распространённых формул (квадратная формула, тождество
-  Эйлера, преобразование Фурье, уравнение Шрёдингера, ...) — поля `source`
-  указывают статьи Википедии, откуда они взяты.
-- **960 реальных** формул, извлечённых из `<math>`-тегов статей Википедии
-  (категории Calculus, Linear algebra, Probability theory, ...), по
-  максимум 15 формул из одной статьи (96 статей). Принимались только те,
-  которые текущий TeX-парсер `mathjax.cr` разбирает без ошибок.
+Composition:
 
-## Структура
+- **40 curated** well-known formulas (the quadratic formula, Euler's
+  identity, the Fourier transform, the Schrödinger equation, ...) — the
+  `source` fields point to the Wikipedia articles they come from.
+- **960 real** formulas extracted from `<math>` tags of Wikipedia articles
+  (categories Calculus, Linear algebra, Probability theory, ...), at most
+  15 formulas per article (96 articles). Only formulas that the current
+  `mathjax.cr` TeX parser handles without errors were accepted.
+
+## Layout
 
 ```
 dataset/
-  manifest.json        # единый источник правды: id, title, source, tex, display
-  inputs/<id>.tex      # TeX-инпуты (сгенерированы из манифеста)
-  expected/<id>.svg    # эталонные SVG (оригинальный MathJax v3, fontCache: local)
-  oracle/              # скрипты генерации + локальный mathjax-full
-    fetch_wiki.py      # дополнить манифест формулами из Википедии (до TARGET)
-    render.js          # перегенерировать inputs/ и expected/ из манифеста
-    mathjax-cli        # собранный CLI mathjax.cr (для фильтра парсером)
+  manifest.json        # single source of truth: id, title, source, tex, display
+  inputs/<id>.tex      # TeX inputs (generated from the manifest)
+  expected/<id>.svg    # reference SVGs (original MathJax v3, fontCache: local)
+  oracle/              # generation scripts + a local mathjax-full
+    fetch_wiki.py      # top up the manifest with Wikipedia formulas (up to TARGET)
+    render.js          # regenerate inputs/ and expected/ from the manifest
+    mathjax-cli        # built mathjax.cr CLI (used for the parser filter)
 ```
 
-Каждый SVG самодостаточен (глифы встроены через `fontCache: 'local'`),
-валиден как XML и обёрнут в `<mjx-container jax="SVG">`, как выдаёт
-`mathjax-full` (`TeX → SVG`, liteAdaptor, `em: 16`, `containerWidth: 80em`).
-`display: true` в манифесте — блочный режим (95 случаев), `false` — inline
-(905, как в самих статьях Википедии).
+Every SVG is self-contained (glyphs embedded via `fontCache: 'local'`),
+valid XML and **pure `<svg>`** — the `<mjx-container>` wrapper emitted by
+`mathjax-full` is stripped (`TeX → SVG`, liteAdaptor, `em: 16`,
+`containerWidth: 80em`). `display: true` in the manifest means block mode
+(95 cases), `false` — inline (905, as in the Wikipedia articles
+themselves).
 
-## Регенерация
+## Regeneration
 
 ```sh
-# 1. собрать CLI (используется фильтром «парсер это принимает»)
+# 1. build the CLI (used by the "parser accepts it" filter)
 crystal build -o dataset/oracle/mathjax-cli src/cli.cr
 
-# 2. добрать формулы из Википедии до 1000 кейсов (идемпотентно:
-#    wiki-* кейсы пересоздаются, курируемые остаются)
+# 2. top up formulas from Wikipedia up to 1000 cases (idempotent:
+#    wiki-* cases are recreated, curated ones stay)
 python3 dataset/oracle/fetch_wiki.py
 
-# 3. перегенерировать inputs/ и expected/ (полная перезапись)
+# 3. regenerate inputs/ and expected/ (full rewrite)
 cd dataset/oracle && npm install && node render.js
 ```
 
-Манифест — источник правды: файлы в `inputs/` и `expected/` не правятся
-руками, а только перегенерируются. `node_modules`, `mathjax-cli` и
-`package-lock.json` в `.gitignore`.
+The manifest is the source of truth: files in `inputs/` and `expected/`
+are never edited by hand, only regenerated. `node_modules`, `mathjax-cli`
+and `package-lock.json` are gitignored.
 
-Скрипт загрузки уважает лимиты API Википедии: троттлинг ~0.8 с/запрос,
-backoff по `Retry-After` на HTTP 429.
+The fetching script respects Wikipedia API limits: ~0.8 s/request
+throttling, `Retry-After` backoff on HTTP 429.
