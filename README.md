@@ -36,14 +36,26 @@ data:
 
 - **MathML** — tree serialization.
 - **HTML** — a simplified CommonHTML analogue: spans + CSS (`MathJax.css`).
-- **SVG** — typeset with real TeX font metrics: the glyph table
-  (width/height/depth in em) is ported from MathJax font data
-  (`MathJax::Fonts`, Main/Math/Size1–4, ~900 glyphs).
+- **SVG** — two modes (`MathJax.to_svg(tex, paths: ...)`):
+  - `paths: false` (default): metrics-based typesetting with `<text>` +
+    system fonts;
+  - `paths: true`: MathJax v3 structure — glyph outline `<path>`s in a
+    single `<defs>` + `<use xlink:href>`, sized in `ex`, colored via
+    `currentColor`. The layout engine is a port of the mathjax-full v3
+    common wrappers (TeX spacing matrix, fraction/script/sqrt geometry,
+    mtable layout, stretchy delimiter assembly, mo/accent remaps).
+    Rasterizes by nanosvg.cr (egui-cr) with no fonts installed. Glyph
+    outlines come from the TeX font data generated out of mathjax-full
+    (`tools/gen_svg_fonts.py`, self-checked against the dataset:
+    7920/7920 d-strings byte-equal). Positional verification over the
+    1000-formula corpus: 96.6% of reference glyphs matched, median
+    residual 13 units (1 em = 1000 units). See `SVG_V3_PLAN.md`.
 
 ## Not ported
 
-a11y (SRE — a separate large system), CHTML/SVG with font glyph paths
-(the SVG output uses `<text>` and system fonts), the `action`, `autobold`,
+a11y (SRE — a separate large system), CHTML (the SVG output has two
+modes: `<text>` + system fonts, and the v3-structure path output —
+see "Outputs"), the `action`, `autobold`,
 `bbox`, `bussproofs`, `cancel` color options, `centernot`, `colortbl`,
 `empheq`, `extpfeil`, `gensymb`, `html`, `mathtools`, `mhchem`,
 `newcommand` conditionals, `noerrors` configurations, `upgreek`, `verb`

@@ -145,11 +145,12 @@ describe MathJax do
 
   describe "text and fonts" do
     it "parses text mode" do
-      MathJax.to_mathml("\\text{if } x").should contain("<mtext>if </mtext>")
+      # spaces become U+00A0, as in MathJax's nbsp text spaces
+      MathJax.to_mathml("\\text{if } x").should contain("<mtext>if\u00A0</mtext>")
     end
 
     it "handles ~ and escapes in text" do
-      MathJax.to_mathml("\\text{a~b}").should contain("<mtext>a b</mtext>")
+      MathJax.to_mathml("\\text{a~b}").should contain("<mtext>a\u00A0b</mtext>")
     end
 
     it "applies font variants" do
@@ -167,7 +168,8 @@ describe MathJax do
   describe "environments" do
     it "parses a matrix with rows and cells" do
       mml = MathJax.to_mathml("\\begin{matrix} a & b \\\\ c & d \\end{matrix}")
-      mml.should contain("<mtable>")
+      # v3 arraydef spacing attributes (calibrated against the MathML oracle)
+      mml.should contain("<mtable columnspacing=\"1em\" rowspacing=\"4pt\">")
       mml.should contain("<mtr>")
       mml.scan(/<mtd>/).size.should eq(4)
     end

@@ -9,6 +9,8 @@ require "./mathjax/tex/parser"
 require "./mathjax/asciimath/parser"
 require "./mathjax/html/renderer"
 require "./mathjax/svg/renderer"
+require "./mathjax/svg/paths_renderer"
+require "./mathjax/fonts/tex_paths"
 
 module MathJax
   VERSION = "1.0.0"
@@ -41,8 +43,18 @@ module MathJax
   end
 
   # TeX -> SVG string (metrics-based layout, see `MathJax::Fonts`).
-  def self.to_svg(tex : String, display : Bool = false, physics : Bool = false) : String
-    Svg::Renderer.call(parse(tex, display, physics: physics), display)
+  # With `paths: true`, emits the MathJax v3 structure instead: glyph
+  # outline paths in a single <defs> + <use xlink:href>, sized in ex,
+  # colored via currentColor — rasterizes by nanosvg.cr without
+  # system fonts.
+  def self.to_svg(tex : String, display : Bool = false, physics : Bool = false,
+                  paths : Bool = false) : String
+    node = parse(tex, display, physics: physics)
+    if paths
+      Svg::PathsRenderer.call(node, display)
+    else
+      Svg::Renderer.call(node, display)
+    end
   end
 
   # CSS for the HTML output.

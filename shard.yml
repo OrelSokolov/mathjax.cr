@@ -9,3 +9,7 @@ description: |
   MathML / HTML output.
 
 license: Apache-2.0
+
+dependencies:
+  nanosvg:
+    github: OrelSokolov/nanosvg.cr

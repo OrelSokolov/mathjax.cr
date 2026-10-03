@@ -949,6 +949,21 @@ module MathJax::TeX
 
       table = Mml::Node.new("mtable")
       table.set("columnalign", columnalign) if columnalign
+      # v3 arraydef spacing per environment family (calibrated against the
+      # MathML oracle): matrix/array 1em+4pt, align-family 0em+3pt (+display
+      # style at top level), cases 1em+.2em, gathered 1em+3pt
+      if env == "cases"
+        table.set("columnspacing", "1em").set("rowspacing", ".2em")
+      elsif ALIGN_ENVS.includes?(env)
+        table.set("columnspacing", "0em").set("rowspacing", "3pt")
+      elsif env.in?({"gathered", "gather", "gather*"})
+        table.set("columnspacing", "1em").set("rowspacing", "3pt")
+      else
+        table.set("columnspacing", "1em").set("rowspacing", "4pt")
+      end
+      if env.in?({"align", "align*", "gather", "gather*", "gathered"})
+        table.set("displaystyle", "true")
+      end
       if @env_depth > 1 && (env.in?(MATRIX_FENCES.keys) || env.in?({"matrix", "smallmatrix"}))
         # Nested matrices (inside another environment's cell) carry an
         # explicit center alignment; top-level ones do not.
@@ -1017,22 +1032,25 @@ module MathJax::TeX
       node
     end
 
-    # Minimal cleanup of raw text: escapes and ~ as space.
+    # Minimal cleanup of raw text: escapes and ~ as space. Spaces become
+    # U+00A0 (v3 renders nbsp as the TEX-N glyph of width .25em).
     private def clean_text(raw : String) : String
+      nbsp = '\u00A0'
       String.build do |io|
         i = 0
         while i < raw.size
           c = raw[i]
           case c
-          when '~' then io << ' '; i += 1
+          when '~' then io << nbsp; i += 1
+          when ' ' then io << nbsp; i += 1
           when '\\'
             rest = raw[i + 1..]
             if m = rest.match(/\A[a-zA-Z]+/)
               name = m[0]
               case name
-              when "quad"  then io << "    "
-              when "qquad" then io << "        "
-              when ",", ";", ":", " " then io << ' '
+              when "quad"  then io << nbsp.to_s * 4
+              when "qquad" then io << nbsp.to_s * 8
+              when ",", ";", ":", " " then io << nbsp
               else io << name
               end
               i += 1 + m[0].size

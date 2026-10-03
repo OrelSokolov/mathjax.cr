@@ -72,7 +72,7 @@ module MathJax::Svg
     # ------------------------------------------------------------------
     # Measuring
 
-    private def variant_of(node : Mml::Node) : String
+    protected def variant_of(node : Mml::Node) : String
       case node["mathvariant"]?
       when "bold" then "main_bold"
       else
@@ -83,7 +83,7 @@ module MathJax::Svg
       end
     end
 
-    private def measure(node : Mml::Node) : Box
+    protected def measure(node : Mml::Node) : Box
       case node.kind
       when "mi", "mn", "mo", "mtext", "ms"
         measure_text(node.text.to_s, variant_of(node))
@@ -112,7 +112,7 @@ module MathJax::Svg
       end
     end
 
-    private def measure_text(text : String, variant : String) : Box
+    protected def measure_text(text : String, variant : String) : Box
       chars = text.chars
       return Box.new(0.0, 0.0, 0.0) if chars.empty? # e.g. empty <mi/> placeholders
       width = chars.sum { |c| Fonts.width(c, variant) }
@@ -121,7 +121,7 @@ module MathJax::Svg
       Box.new(width + 0.05, ascent, descent)
     end
 
-    private def measure_list(nodes : Array(Mml::Node)) : Box
+    protected def measure_list(nodes : Array(Mml::Node)) : Box
       return Box.new(0.0, 0.5, 0.2) if nodes.empty?
       width = 0.0
       ascent = 0.5
@@ -136,7 +136,7 @@ module MathJax::Svg
       Box.new(width, ascent, descent)
     end
 
-    private def measure_scripts(node : Mml::Node) : Box
+    protected def measure_scripts(node : Mml::Node) : Box
       base = measure(node.children.first)
       if node.kind.in?("msub", "msup", "msubsup")
         script_scale = 0.7
@@ -165,7 +165,7 @@ module MathJax::Svg
       end
     end
 
-    private def measure_table(node : Mml::Node) : Box
+    protected def measure_table(node : Mml::Node) : Box
       rows = node.children
       widths = column_widths(node)
       width = widths.sum + 0.3
@@ -173,7 +173,7 @@ module MathJax::Svg
       Box.new(width, height * 0.55, height * 0.45)
     end
 
-    private def column_widths(table : Mml::Node) : Array(Float64)
+    protected def column_widths(table : Mml::Node) : Array(Float64)
       ncols = table.children.max_of(&.children.size)
       Array.new(ncols, 0.0).tap do |widths|
         table.children.each do |row|
@@ -185,7 +185,7 @@ module MathJax::Svg
       end
     end
 
-    private def row_height(row : Mml::Node) : Float64
+    protected def row_height(row : Mml::Node) : Float64
       row.children.max_of { |c| measure_list(c.children).height } * 1.1
     end
 
