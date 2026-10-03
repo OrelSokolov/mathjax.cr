@@ -1,0 +1,17 @@
+# vendored MathJax sources (reference only)
+/vendor/
+
+# crystal
+/lib/
+/bin/
+.shards/
+*.dwarf
+
+# node
+node_modules/
+
+# built CLI inside the SVG oracle
+/dataset/oracle/mathjax-cli
+
+# generated artifacts
+/test/datasets/diffs.txt

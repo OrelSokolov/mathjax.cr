@@ -1,0 +1,11 @@
+name: mathjax
+version: 0.1.0
+
+authors:
+  - Oleg
+
+description: |
+  A Crystal port of the MathJax core: TeX input processor -> MML tree ->
+  MathML / HTML output.
+
+license: Apache-2.0

@@ -1,0 +1,1000 @@
+{"id":0,"tex":"F=mv"}
+{"id":1,"tex":"v=c\\frac{W}{\\rho}"}
+{"id":2,"tex":"Q"}
+{"id":3,"tex":"J"}
+{"id":4,"tex":"\\frac{Q^2}{4\\pi\\epsilon_0} + \\frac{c^2 J^2}{G M^2} \\le G M^2"}
+{"id":5,"tex":"M"}
+{"id":6,"tex":"\\epsilon_0"}
+{"id":7,"tex":"c"}
+{"id":8,"tex":"G"}
+{"id":9,"tex":"r_\\textrm{S}"}
+{"id":10,"tex":"a = \\frac{J}{M} = \\frac{2J}{r_\\textrm{S}},"}
+{"id":11,"tex":"|J|= M^2"}
+{"id":12,"tex":"a=1"}
+{"id":13,"tex":"Q\\leq\\sqrt{4\\pi \\epsilon_0 G}M,"}
+{"id":14,"tex":"F_\\nu"}
+{"id":15,"tex":"\\nu^{1/3}"}
+{"id":16,"tex":"r_{\\rm ISCO}=3 \\, r_\\text{s}=\\frac{6 \\, GM}{c^2},"}
+{"id":17,"tex":"r_{\\rm_{ISCO}}"}
+{"id":18,"tex":"r_\\text{s}"}
+{"id":19,"tex":"4.5r_\\text{s}"}
+{"id":20,"tex":"r_\\mathrm{s}=\\frac{2GM}{c^2} \\approx 2.95\\, \\frac{M}{M_\\odot}~\\mathrm{km,}"}
+{"id":21,"tex":"r_{\\pm} = M \\pm \\sqrt{M^2 - {{(J/M)}}^2}."}
+{"id":22,"tex":"|J| \\le M^2."}
+{"id":23,"tex":"r_\\mathrm{+}=\\frac{GM}{c^2}."}
+{"id":24,"tex":"z\\ge7,"}
+{"id":25,"tex":"z\\sim6"}
+{"id":26,"tex":"R_H = a\\left ( \\frac{m}{3M} \\right )^{\\frac{1}{3}}"}
+{"id":27,"tex":"\\left ( \\frac{1}{3 \\cdot 332,946} \\right )^{\\frac{1}{3}} = 0.01"}
+{"id":28,"tex":"\\theta < \\pi"}
+{"id":29,"tex":"2r\\sin\\left(\\theta/2\\right)"}
+{"id":30,"tex":"\\sum_{i = 1}^{10} (11-i)x_i \\equiv 0 \\pmod{11}."}
+{"id":31,"tex":"\\begin{align}\n s &= (0\\times 10) + (3\\times 9) + (0\\times 8) + (6\\times 7) + (4\\times 6) + (0\\times 5) + (6\\times 4) + (1\\times 3) + (5\\times 2) + (2\\times 1) \\\\\n   &=    0 + 27 +   0 +  42 +  24 +   0 + 24  +   3 + 10 + 2\\\\\n   &= 132 = 12\\times 11.\n\\end{align}"}
+{"id":32,"tex":"(10x_1+9x_2+8x_3+7x_4+6x_5+5x_6+4x_7+3x_8+2x_9+x_{10})\\equiv 0 \\pmod{11}."}
+{"id":33,"tex":"\\begin{align}\n s &= (0\\times 1) + (3\\times 2) + (0\\times 3) + (6\\times 4) + (4\\times 5) + (0\\times 6) + (6\\times 7) + (1\\times 8) + (5\\times 9) + (2\\times 10) \\\\\n   &=    0 + 6 +   0 +  24 +  20 +   0 + 42  +   8 + 45 + 20\\\\\n   &= 165 = 15\\times 11.\n\\end{align}"}
+{"id":34,"tex":"(x_1 + 2x_2 + 3x_3 + 4x_4 + 5x_5 + 6x_6 + 7x_7 + 8x_8 + 9x_9 + 10x_{10})\\equiv 0 \\pmod{11}."}
+{"id":35,"tex":"\\begin{align}\n s &= (0\\times 10)+(3\\times 9)+(0\\times 8)+(6\\times 7)+(4\\times 6)+(0\\times 5)+(6\\times 4)+(1\\times 3)+(5\\times 2)\\\\\n   &= 130.\n\\end{align}"}
+{"id":36,"tex":"x_{10}"}
+{"id":37,"tex":"\\begin{align}\n s &= (11 - ( ( (0\\times 10)+(3\\times 9)+(0\\times 8)+(6\\times 7)+(4\\times 6)+(0\\times 5)+(6\\times 4)+(1\\times 3)+(5\\times 2) ) \\,\\bmod\\, 11 ) ) \\,\\bmod\\, 11\\\\\n   &=    (11 - ( (0 + 27 +   0 +  42 +  24 +   0 + 24  +   3 + 10 ) \\,\\bmod\\, 11) ) \\,\\bmod\\, 11\\\\\n   &= (11-((130) \\,\\bmod\\, 11))\\,\\bmod\\, 11 \\\\\n   &= (11-(9))\\,\\bmod\\, 11 \\\\\n   &= 2\\,\\bmod\\, 11 \\\\\n   &= 2\n\\end{align}"}
+{"id":38,"tex":"(x_1 + 3x_2 + x_3 + 3x_4 + x_5 + 3x_6 + x_7 + 3x_8 + x_9 + 3x_{10} + x_{11} + 3x_{12} + x_{13} ) \\equiv 0 \\pmod{10}."}
+{"id":39,"tex":"\\textstyle \\begin{array}{rlllllllllllll}\ns &{}= 1 \\times 9 &{}+ 3 \\times 7 &{}+ 1 \\times 8 &{}+ 3 \\times 0 &{}+ 1 \\times 3 &{}+ 3 \\times 0 &{}+ 1 \\times 6 &{}+ 3 \\times 4 &{}+ 1 \\times 0 &{}+ 3 \\times 6 &{}+ 1 \\times 1 &{}+ 3 \\times 5 \\\\\n &{}= 9 &{}+21 &{}+ 8 &{}+ 0 &{}+ 3 &{}+ 0 &{}+ 6 &{}+ 12 &{}+ 0 &{}+ 18 &{}+ 1 &{}+ 15 \\\\\n &{}= 93\n\\end{array}"}
+{"id":40,"tex":"r = 10 - \\big(\\big(x_1 + 3x_2 + x_3 + 3x_4 + \\cdots + x_{11} + 3x_{12}\\big) \\bmod 10\\big)."}
+{"id":41,"tex":"x_{13} = \\begin{cases}\n  r, & r < 10, \\\\\n  0, & r = 10.\n\\end{cases}"}
+{"id":42,"tex":"(\\mathbb{N}),"}
+{"id":43,"tex":"(\\Z)"}
+{"id":44,"tex":"(\\Q)."}
+{"id":45,"tex":"\\int"}
+{"id":46,"tex":"\\Omega^{-}."}
+{"id":47,"tex":"\\frac{3}{2}"}
+{"id":48,"tex":"\\mathbb{Z}/2\\mathbb{Z}"}
+{"id":49,"tex":"384401"}
+{"id":50,"tex":"6.378136 \\cdot 10^6"}
+{"id":51,"tex":"2\\pi"}
+{"id":52,"tex":"4.007501 \\cdot 10^7"}
+{"id":53,"tex":"40075.01 km"}
+{"id":54,"tex":"9.59"}
+{"id":55,"tex":"U_{1/2}(r) =  -\\frac{2v}{rR(r+R)^2}"}
+{"id":56,"tex":"R"}
+{"id":57,"tex":"v"}
+{"id":58,"tex":"r"}
+{"id":59,"tex":"v=v_N=\\frac{1}{4}R^2 N(N+1)"}
+{"id":60,"tex":"N=n+l"}
+{"id":61,"tex":"N"}
+{"id":62,"tex":"n"}
+{"id":63,"tex":"l=0"}
+{"id":64,"tex":"n+l"}
+{"id":65,"tex":"d"}
+{"id":66,"tex":"d/dx"}
+{"id":67,"tex":"(a\\mid b)^*a(a\\mid b)(a\\mid b)(a\\mid b)"}
+{"id":68,"tex":"(a\\mid b)^*a\\underbrace{(a\\mid b)(a\\mid b)\\cdots(a\\mid b)}_{k-1\\text{ times}}. \\,"}
+{"id":69,"tex":"R_\\textrm{eq}"}
+{"id":70,"tex":"R_\\textrm{pol}"}
+{"id":71,"tex":"\\Delta_\\odot = (R_\\textrm{eq} -R_\\textrm{pol})/R_\\textrm{pol}."}
+{"id":72,"tex":"\\psi"}
+{"id":73,"tex":"\\cos\\psi=\\cos(\\beta_g)\\cos(\\beta_e)\\cos(\\alpha_g-\\alpha_e)+"}
+{"id":74,"tex":"\\sin(\\beta_g)\\sin(\\beta_e)"}
+{"id":75,"tex":"\\beta_g"}
+{"id":76,"tex":"\\alpha_g"}
+{"id":77,"tex":"\\beta_e"}
+{"id":78,"tex":"\\alpha_e"}
+{"id":79,"tex":"\\mathfrak{G}"}
+{"id":80,"tex":"\\frac{d T}{d P} = \\frac{T \\left(v_\\text{L}-v_\\text{S}\\right) }{L_\\text{f}}"}
+{"id":81,"tex":"v_\\text{L}"}
+{"id":82,"tex":"v_\\text{S}"}
+{"id":83,"tex":"L_\\text{f}"}
+{"id":84,"tex":"4x=y^{2}-z^{2}"}
+{"id":85,"tex":"N=n\\times n"}
+{"id":86,"tex":"N - 1"}
+{"id":87,"tex":"4"}
+{"id":88,"tex":"\\begin{align}\nS^0 & \\hookrightarrow S^1 \\to S^1, \\\\\nS^1 & \\hookrightarrow S^3 \\to S^2, \\\\\nS^3 & \\hookrightarrow S^7 \\to S^4, \\\\\nS^7 & \\hookrightarrow S^{15}\\to S^8. \\\\\n\\end{align}"}
+{"id":89,"tex":"f : S^{2n-1} \\rightarrow S^{n}"}
+{"id":90,"tex":"n=2,4,8"}
+{"id":91,"tex":"2+2=2\\times2=2^{2}=2\\uparrow\\uparrow 2=2\\uparrow\\uparrow\\uparrow2=\\;...\\; = 4"}
+{"id":92,"tex":"\\{\\mathrm{onions, potatoes}\\} \\Rightarrow \\{\\mathrm{burger}\\}"}
+{"id":93,"tex":"\\epsilon\\,\\!"}
+{"id":94,"tex":"\\varepsilon\\,\\!"}
+{"id":95,"tex":"\\varpi\\,\\!"}
+{"id":96,"tex":"\\Upsilon"}
+{"id":97,"tex":"\\textstyle\\phi\\,\\!"}
+{"id":98,"tex":"\\textstyle\\varphi\\,\\!"}
+{"id":99,"tex":"\\mathbb{F}_{256}"}
+{"id":100,"tex":"b_7b_6b_5b_4b_3b_2b_1b_0"}
+{"id":101,"tex":"\\textstyle\\sum_{i=0}^7 b_i 2^i"}
+{"id":102,"tex":"\\textstyle\\sum_{i=0}^7 b_i \\alpha^i"}
+{"id":103,"tex":"\\alpha \\in \\mathbb{F}_{256}"}
+{"id":104,"tex":"\\alpha^8 + \\alpha^4 + \\alpha^3 + \\alpha^2 + 1 = 0"}
+{"id":105,"tex":"x^8 + x^4 + x^3 + x^2 + 1"}
+{"id":106,"tex":"\\prod_{i=0}^{n-1} (x - \\alpha^i)"}
+{"id":107,"tex":"g(x)= x^7+\\alpha^{87}x^6+\\alpha^{229}x^5+\\alpha^{146}x^4+\\alpha^{149}x^3+\\alpha^{238}x^2+\\alpha^{102}x+\\alpha^{21}"}
+{"id":108,"tex":"g(x)=(x+1)(x+\\alpha)(x+\\alpha^2)(x+\\alpha^3)(x+\\alpha^4)(x+\\alpha^5)(x+\\alpha^6)"}
+{"id":109,"tex":"g(x)= x^7+127x^6+122x^5+154x^4+164x^3+11x^2+68x+117"}
+{"id":110,"tex":"x"}
+{"id":111,"tex":"g(x)=x^{10}+x^8+x^5+x^4+x^2+x+1"}
+{"id":112,"tex":"a^x(y - z)^2"}
+{"id":113,"tex":"T = \\frac{\\hbar c^3}{8 \\pi G M k},"}
+{"id":114,"tex":"T"}
+{"id":115,"tex":"\\hbar"}
+{"id":116,"tex":"k"}
+{"id":117,"tex":"S"}
+{"id":118,"tex":"T = M c^2/2 S,"}
+{"id":119,"tex":"M c^2"}
+{"id":120,"tex":"S = \\frac{4 \\pi G M^2 k}{\\hbar c}."}
+{"id":121,"tex":"r = \\frac{2 G M}{c^2},"}
+{"id":122,"tex":"A = 4 \\pi r^2,"}
+{"id":123,"tex":"S_\\text{BH} = \\frac{k c^3}{4 \\hbar G} A,"}
+{"id":124,"tex":"\\frac{S_\\text{BH}}{k} = \\frac{1}{4} \\frac{A}{l_\\text{P}^2},"}
+{"id":125,"tex":"l_\\text{P} = \\sqrt{\\hbar G / c^3}"}
+{"id":126,"tex":"1/4"}
+{"id":127,"tex":"v = H_0D"}
+{"id":128,"tex":"D"}
+{"id":129,"tex":"H_0"}
+{"id":130,"tex":"v = HD"}
+{"id":131,"tex":"H"}
+{"id":132,"tex":"2 + 2=4"}
+{"id":133,"tex":"W = \\int_C \\mathbf{F} \\cdot \\mathrm{d} \\mathbf{s}"}
+{"id":134,"tex":"W"}
+{"id":135,"tex":"E = h\\nu"}
+{"id":136,"tex":"h"}
+{"id":137,"tex":"\\nu"}
+{"id":138,"tex":"E_0 = m_0 c^2 ,"}
+{"id":139,"tex":"E_0"}
+{"id":140,"tex":"E_p"}
+{"id":141,"tex":"E_k"}
+{"id":142,"tex":"E_{pi} + E_{ki} = E_{pF} + E_{kF}"}
+{"id":143,"tex":"E_p = mgh"}
+{"id":144,"tex":"E_k = \\frac{1}{2} mv^2"}
+{"id":145,"tex":"E_p + E_k = E_\\text{total}"}
+{"id":146,"tex":"c^2"}
+{"id":147,"tex":"\\Delta E \\Delta t \\ge \\frac { \\hbar } {2 }"}
+{"id":148,"tex":"\\Delta{}E = W + Q"}
+{"id":149,"tex":"E"}
+{"id":150,"tex":"\\Delta{}E = W"}
+{"id":151,"tex":"E_\\text{matter}"}
+{"id":152,"tex":"\\Delta E = W + Q + E_\\text{matter} ."}
+{"id":153,"tex":"\\mathrm{d}E = T\\mathrm{d}S - P\\mathrm{d}V\\,,"}
+{"id":154,"tex":"\\mathrm{d}E=\\delta Q+\\delta W"}
+{"id":155,"tex":"\\delta Q"}
+{"id":156,"tex":"\\delta W"}
+{"id":157,"tex":"\\mathbb{H}"}
+{"id":158,"tex":"1 + \\frac{24}{60} + \\frac{51}{60^2} + \\frac{10}{60^3} = \\frac{305470}{216000} = 1.41421\\overline{296}."}
+{"id":159,"tex":"4ab"}
+{"id":160,"tex":"(a - b)^2"}
+{"id":161,"tex":"(a + b)^2"}
+{"id":162,"tex":"S = k \\ln W"}
+{"id":163,"tex":"\\pi = \\frac{C}{d}."}
+{"id":164,"tex":"\\frac{C}{d}"}
+{"id":165,"tex":"x^2+y^2=1"}
+{"id":166,"tex":"\\pi = \\int_{-1}^1 \\frac{dx}{\\sqrt{1-x^2}}."}
+{"id":167,"tex":"\\pi=\\int_{-\\infty}^\\infty\\frac{dx}{1+x^2}."}
+{"id":168,"tex":"\\{\\dots,-2\\pi i, 0, 2\\pi i, 4\\pi i,\\dots\\} = \\{2\\pi ki\\mid k\\in\\mathbb Z\\}"}
+{"id":169,"tex":"\\pi"}
+{"id":170,"tex":"\\frac{x^5}{120}-\\frac{x^3}{6}+x=0"}
+{"id":171,"tex":"\\sqrt[3]{31}"}
+{"id":172,"tex":"\\sqrt{10}"}
+{"id":173,"tex":"\\pi = 3+\\textstyle \\cfrac{1}{7+\\textstyle \\cfrac{1}{15+\\textstyle \\cfrac{1}{1+\\textstyle \\cfrac{1}{292+\\textstyle \\cfrac{1}{1+\\textstyle \\cfrac{1}{1+\\textstyle \\cfrac{1}{1+\\ddots}}}}}}}"}
+{"id":174,"tex":"\\begin{align}\n\\pi &= 3+ \\cfrac\n{1^2}{6+ \\cfrac\n{3^2}{6+ \\cfrac\n{5^2}{6+ \\cfrac\n{7^2}{6+ \\ddots}}}}\n= \\cfrac\n{4}{1+ \\cfrac\n{1^2}{2+ \\cfrac\n{3^2}{2+ \\cfrac\n{5^2}{2+ \\ddots}}}}\n= \\cfrac\n{4}{1+ \\cfrac\n{1^2}{3+ \\cfrac\n{2^2}{5+ \\cfrac\n{3^2}{7+ \\ddots}}}}\n\\end{align}"}
+{"id":175,"tex":"z = r\\cdot(\\cos\\varphi + i\\sin\\varphi),"}
+{"id":176,"tex":"i^2=-1"}
+{"id":177,"tex":"e^{i\\varphi} = \\cos \\varphi + i\\sin \\varphi,"}
+{"id":178,"tex":"\\varphi=\\pi"}
+{"id":179,"tex":"e^{i \\pi} + 1 = 0."}
+{"id":180,"tex":"e^{2 \\pi i k/n} \\qquad (k = 0, 1, 2, \\dots, n - 1)."}
+{"id":181,"tex":"\\bigl(\\frac{16}{9}\\bigr)^2\\approx3.16"}
+{"id":182,"tex":"3.1415926 < \\pi < 3.1415927"}
+{"id":183,"tex":"\\pi \\approx \\frac{355}{113} = 3.14159292035\\ldots"}
+{"id":184,"tex":"\\pi \\approx \\frac{22}{7} = 3.142857142857\\ldots"}
+{"id":185,"tex":"3+\\frac{\\sqrt{2}}{10} \\approx 3.14142"}
+{"id":186,"tex":"3\\times 2^{28}"}
+{"id":187,"tex":"3\\times 2^{17}"}
+{"id":188,"tex":"\\frac2\\pi = \\frac{\\sqrt2}2 \\cdot \\frac{\\sqrt{2+\\sqrt2}}2 \\cdot \\frac{\\sqrt{2+\\sqrt{2+\\sqrt2}}}2 \\cdots"}
+{"id":189,"tex":"\\frac{\\pi}{2} = \\Big(\\frac{2}{1} \\cdot \\frac{2}{3}\\Big) \\cdot \\Big(\\frac{4}{3} \\cdot \\frac{4}{5}\\Big) \\cdot \\Big(\\frac{6}{5} \\cdot \\frac{6}{7}\\Big) \\cdot \\Big(\\frac{8}{7} \\cdot \\frac{8}{9}\\Big) \\cdots"}
+{"id":190,"tex":"\\arctan z = z - \\frac {z^3} {3} +\\frac {z^5} {5} -\\frac {z^7} {7} +\\cdots"}
+{"id":191,"tex":"\\frac{\\pi}{4}"}
+{"id":192,"tex":"z=\\frac{1}{\\sqrt{3}}"}
+{"id":193,"tex":"\\overline{\\tfrac{16}5 - \\tfrac4{239}}\n- \\tfrac13\\overline{\\tfrac{16}{5^3} - \\tfrac4{239^3}}\n+ \\tfrac15\\overline{\\tfrac{16}{5^5} - \\tfrac4{239^5}}\n-,\\, \\&c. ="}
+{"id":194,"tex":"\\frac{\\pi}{4} = 4 \\arctan \\frac{1}{5} - \\arctan \\frac{1}{239}."}
+{"id":195,"tex":"\\arctan x\n= \\frac{x}{1 + x^2} + \\frac23\\frac{x^3}{(1 + x^2)^2}\n+ \\frac{2\\cdot 4}{3 \\cdot 5}\\frac{x^5}{(1 + x^2)^3} + \\cdots"}
+{"id":196,"tex":"\\tfrac\\pi4 = 5\\arctan\\tfrac17 + 2\\arctan\\tfrac{3}{79},"}
+{"id":197,"tex":"\\pi = \\frac{4}{1} - \\frac{4}{3} + \\frac{4}{5} - \\frac{4}{7} + \\frac{4}{9} - \\frac{4}{11} + \\frac{4}{13} - \\cdots"}
+{"id":198,"tex":"\\pi = 3 + \\frac{4}{2\\times3\\times4} - \\frac{4}{4\\times5\\times6} + \\frac{4}{6\\times7\\times8} - \\frac{4}{8\\times9\\times10} + \\cdots"}
+{"id":199,"tex":"\\pi = \\frac{4}{1} - \\frac{4}{3} + \\frac{4}{5} - \\frac{4}{7} + \\frac{4}{9} - \\frac{4}{11} + \\frac{4}{13} + \\cdots"}
+{"id":200,"tex":"\\pi = {{3}} + \\frac{{4}}{2\\times3\\times4} - \\frac{{4}}{4\\times5\\times6} + \\frac{{4}}{6\\times7\\times8} - \\cdots"}
+{"id":201,"tex":"\\frac{\\pi^2}{6} = \\frac{1}{1^2} + \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\cdots"}
+{"id":202,"tex":"\\frac \\pi \\rho"}
+{"id":203,"tex":"\\tfrac12"}
+{"id":204,"tex":"\\textstyle a_0 = 1, \\quad b_0 = \\frac{1}{\\sqrt 2}, \\quad t_0 = \\frac{1}{4}, \\quad p_0 = 1."}
+{"id":205,"tex":"\\textstyle a_{n+1} = \\frac{a_n+b_n}{2}, \\quad \\quad b_{n+1} = \\sqrt{a_n b_n},"}
+{"id":206,"tex":"\\textstyle t_{n+1} = t_n - p_n (a_n-a_{n+1})^2, \\quad \\quad p_{n+1} = 2 p_n."}
+{"id":207,"tex":"\\textstyle \\pi \\approx \\frac{(a_n + b_n)^2}{4 t_n}."}
+{"id":208,"tex":"\\frac{1}{\\pi} = \\frac{2 \\sqrt 2}{9801} \\sum_{k=0}^\\infty \\frac{(4k)!(1103+26390k)}{k!^4 396^{4k}}."}
+{"id":209,"tex":"\\frac{1}{\\pi} = \\frac{\\sqrt{10005}}{4270934400} \\sum_{k=0}^\\infty \\frac{(6k)! (13591409 + 545140134k)}{(3k)!\\,k!^3 (-640320)^{3k}}."}
+{"id":210,"tex":"\\pi^k = \\sum_{n=1}^\\infty \\frac{1}{n^k} \\left(\\frac{a}{q^n-1} + \\frac{b}{q^{2n}-1} + \\frac{c}{q^{4n}-1}\\right),"}
+{"id":211,"tex":"\\pi \\approx \\frac{2n\\ell}{xt}."}
+{"id":212,"tex":"W_n = \\sum_{k=1}^n X_k"}
+{"id":213,"tex":"\\pi = \\lim_{n\\to\\infty} \\frac{2n}{E[|W_n|]^2}."}
+{"id":214,"tex":"\\pi = \\sum_{k=0}^\\infty \\frac{1}{16^k} \\left( \\frac{4}{8k + 1} - \\frac{2}{8k + 4} - \\frac{1}{8k + 5} - \\frac{1}{8k + 6}\\right)."}
+{"id":215,"tex":"r^2"}
+{"id":216,"tex":"\\int_{-1}^1 \\sqrt{1-x^2}\\,dx = \\frac{\\pi}{2}."}
+{"id":217,"tex":"\\sqrt{1-x^2}"}
+{"id":218,"tex":"\\sin\\theta = \\sin\\left(\\theta + 2\\pi k \\right) \\text{ and } \\cos\\theta = \\cos\\left(\\theta + 2\\pi k \\right)."}
+{"id":219,"tex":"f : [0, 1] \\to \\Complex"}
+{"id":220,"tex":"\\pi^2\\int_0^1|f(x)|^2\\,dx\\le \\int_0^1|f'(x)|^2\\,dx,"}
+{"id":221,"tex":"H^1_0[0,1]"}
+{"id":222,"tex":"4\\pi A\\le P^2,"}
+{"id":223,"tex":"2\\pi\\|f\\|_2 \\le \\|\\nabla f\\|_1"}
+{"id":224,"tex":"\\nabla f"}
+{"id":225,"tex":"\\|f\\|_2"}
+{"id":226,"tex":"\\|\\nabla f\\|_1"}
+{"id":227,"tex":"\\pi \\le \\frac{\\left (\\int_G |\\nabla u|^2\\right)^{1/2}}{\\left (\\int_G|u|^2\\right)^{1/2}}"}
+{"id":228,"tex":"\\hat{f}(\\xi) = \\int_{-\\infty}^\\infty f(x) e^{-2\\pi i x\\xi}\\,dx."}
+{"id":229,"tex":"\\left(\\int_{-\\infty}^\\infty x^2|f(x)|^2\\,dx\\right)\n\\left(\\int_{-\\infty}^\\infty \\xi^2|\\hat{f}(\\xi)|^2\\,d\\xi\\right)\n\\ge\n\\left(\\frac{1}{4\\pi}\\int_{-\\infty}^\\infty |f(x)|^2\\,dx\\right)^2."}
+{"id":230,"tex":"f(x) = {1 \\over \\sigma\\sqrt{2\\pi} }\\,e^{-(x-\\mu )^2/(2\\sigma^2)}."}
+{"id":231,"tex":"\\tfrac{1}{\\sqrt{2\\pi}}"}
+{"id":232,"tex":"\\int_{-\\infty}^\\infty e^{-u^2} \\, du=\\sqrt{\\pi} ,"}
+{"id":233,"tex":"\\int_\\Sigma K\\,dA = 2\\pi \\chi(\\Sigma),"}
+{"id":234,"tex":"A(S) = \\int_S 1\\,dA = 2\\pi\\cdot 2 = 4\\pi,"}
+{"id":235,"tex":"\\oint_\\gamma \\frac{dz}{z-z_0} = 2\\pi i."}
+{"id":236,"tex":"\\oint_\\gamma { f(z) \\over z-z_0 }\\,dz = 2\\pi i f (z_{0}),"}
+{"id":237,"tex":"\\oint_\\gamma g(z)\\, dz =2\\pi i \\sum \\operatorname{Res}( g, a_k ),"}
+{"id":238,"tex":"\\Phi(\\mathbf x) = \\frac{1}{2\\pi}\\log|\\mathbf x|."}
+{"id":239,"tex":"1/(2\\pi)"}
+{"id":240,"tex":"\\Phi"}
+{"id":241,"tex":"\\mathbb R^2"}
+{"id":242,"tex":"\\Delta\\Phi = \\delta,"}
+{"id":243,"tex":"\\delta"}
+{"id":244,"tex":"\\Phi(\\mathbf x) = -\\frac{1}{4\\pi|\\mathbf x|},"}
+{"id":245,"tex":"\\int_a^b k(s)\\,ds."}
+{"id":246,"tex":"n!"}
+{"id":247,"tex":"\\Gamma(n)=(n-1)!"}
+{"id":248,"tex":"\\Gamma\\bigl(\\tfrac12\\bigr) = \\sqrt{\\pi}"}
+{"id":249,"tex":"\\Gamma\\bigl(\\tfrac52\\bigr) = \\tfrac 34 \\sqrt{\\pi}"}
+{"id":250,"tex":"\\Gamma(z) = \\frac{e^{-\\gamma z}}{z}\\prod_{n=1}^\\infty \\frac{e^{z/n}}{1+z/n},"}
+{"id":251,"tex":"V_n(r) = \\frac{\\pi^{n/2}}{\\Gamma\\bigl(\\frac{n}{2}+1\\bigr)}r^n,"}
+{"id":252,"tex":"S_{n-1}(r) = \\frac{n\\pi^{n/2}}{\\Gamma\\bigl(\\tfrac{n}{2}+1\\bigr)}r^{n-1}."}
+{"id":253,"tex":"2\\pi r = \\frac{S_{n+1}(r)}{V_n(r)}."}
+{"id":254,"tex":"n! \\sim \\sqrt{2 \\pi n} \\left(\\frac{n}{e}\\right)^n"}
+{"id":255,"tex":"\\pi = \\lim_{n\\to\\infty} \\frac{e^{2n}n!^2}{2 n^{2n+1}}."}
+{"id":256,"tex":"\\operatorname{Vol}((n+1)\\Delta_n) = \\frac{(n+1)^n}{n!} \\sim \\frac{e^{n+1}}{\\sqrt{2\\pi n}}."}
+{"id":257,"tex":"\\zeta(2) = \\frac{1}{1^2} + \\frac{1}{2^2} + \\frac{1}{3^2} + \\cdots."}
+{"id":258,"tex":"\\begin{align}\n\\prod_p^\\infty \\left(1-\\frac{1}{p^2}\\right) &= \\left( \\prod_p^\\infty \\frac{1}{1-p^{-2}} \\right)^{-1}\\\\[4pt]\n&= \\frac{1}{1 + \\frac{1}{2^2} + \\frac{1}{3^2} + \\cdots }\\\\[4pt]\n&= \\frac{1}{\\zeta(2)} = \\frac{6}{\\pi^2} \\approx 61\\%.\n\\end{align}"}
+{"id":259,"tex":"\\zeta(s) = 2^s\\pi^{s-1}\\ \\sin\\left(\\frac{\\pi s}{2}\\right)\\ \\Gamma(1-s)\\ \\zeta(1-s)."}
+{"id":260,"tex":"\\exp(-\\zeta'(0)) = \\sqrt{2\\pi}."}
+{"id":261,"tex":"e_n(x)= e^{2\\pi i n x}"}
+{"id":262,"tex":"e^{\\pi i x}"}
+{"id":263,"tex":"\\mathrm{SL}_2(\\mathbb Z)"}
+{"id":264,"tex":"\\theta(z,\\tau) = \\sum_{n=-\\infty}^\\infty e^{2\\pi i nz \\ +\\ \\pi i n^2\\tau},"}
+{"id":265,"tex":"q=e^{\\pi i \\tau}"}
+{"id":266,"tex":"\\theta(z+\\tau,\\tau) = e^{-\\pi i\\tau -2\\pi i z}\\theta(z,\\tau),"}
+{"id":267,"tex":"g(x)=\\frac{1}{\\pi}\\cdot\\frac{1}{x^2+1}"}
+{"id":268,"tex":"\\int_{-\\infty }^{\\infty } \\frac{1}{x^2+1} \\, dx = \\pi."}
+{"id":269,"tex":"Hf(t) = \\frac{1}{\\pi}\\int_{-\\infty}^\\infty \\frac{f(x)\\,dx}{x-t}."}
+{"id":270,"tex":"T \\approx 2\\pi \\sqrt\\frac{L}{g}."}
+{"id":271,"tex":"\\Delta x\\, \\Delta p \\ge \\frac{h}{4\\pi}."}
+{"id":272,"tex":"\\frac{1}{\\tau} = 2\\frac{\\pi^2 - 9}{9\\pi}m_\\text{e}\\alpha^{6},"}
+{"id":273,"tex":"F =\\frac{\\pi^2EI}{L^2}."}
+{"id":274,"tex":"F =6\\pi\\eta Rv."}
+{"id":275,"tex":"\\mu_0 = 4 \\pi \\times 10^{-7}\\text{ H/m} \\approx 1.2566370614 \\ldots \\times 10 ^{-6} \\text{ N/A}^2."}
+{"id":276,"tex":"\\mathcal H"}
+{"id":277,"tex":"\\langle \\psi,\\psi \\rangle = 1"}
+{"id":278,"tex":"e^{i\\alpha}\\psi"}
+{"id":279,"tex":"L^2(\\mathbb C)"}
+{"id":280,"tex":"\\mathbb C^2"}
+{"id":281,"tex":"\\lambda"}
+{"id":282,"tex":"|\\langle \\vec\\lambda,\\psi\\rangle|^2"}
+{"id":283,"tex":"\\vec\\lambda"}
+{"id":284,"tex":"\\langle \\psi,P_\\lambda\\psi\\rangle"}
+{"id":285,"tex":"P_\\lambda"}
+{"id":286,"tex":"P_\\lambda\\psi\\big/\\! \\sqrt{\\langle \\psi,P_\\lambda\\psi\\rangle}"}
+{"id":287,"tex":"i\\hbar {\\frac {\\partial}{\\partial t}} \\psi (t) =H \\psi (t)."}
+{"id":288,"tex":"i\\hbar"}
+{"id":289,"tex":"\\psi(t) = e^{-iHt/\\hbar }\\psi(0)."}
+{"id":290,"tex":"U(t) = e^{-iHt/\\hbar }"}
+{"id":291,"tex":"\\psi(0)"}
+{"id":292,"tex":"\\psi(t)"}
+{"id":293,"tex":"\\hat{X}"}
+{"id":294,"tex":"\\hat{P}"}
+{"id":295,"tex":"[\\hat{X}, \\hat{P}] = i\\hbar."}
+{"id":296,"tex":"X"}
+{"id":297,"tex":"P"}
+{"id":298,"tex":"\\sigma_X={\\textstyle \\sqrt{\\left\\langle X^2 \\right\\rangle - \\left\\langle X \\right\\rangle^2}},"}
+{"id":299,"tex":"\\sigma_P=\\sqrt{\\left\\langle P^2 \\right\\rangle - \\left\\langle P \\right\\rangle^2}."}
+{"id":300,"tex":"\\sigma_X \\sigma_P \\geq \\frac{\\hbar}{2}."}
+{"id":301,"tex":"A"}
+{"id":302,"tex":"B"}
+{"id":303,"tex":"[A,B]=AB-BA,"}
+{"id":304,"tex":"\\sigma_A \\sigma_B \\geq \\tfrac12 \\left|\\bigl\\langle[A,B]\\bigr\\rangle \\right|."}
+{"id":305,"tex":"i/\\hbar"}
+{"id":306,"tex":"p_i"}
+{"id":307,"tex":"-i \\hbar \\frac {\\partial}{\\partial x}"}
+{"id":308,"tex":"-\\hbar^2"}
+{"id":309,"tex":"\\mathcal H_A"}
+{"id":310,"tex":"\\mathcal H_B"}
+{"id":311,"tex":"\\mathcal H_{AB} = \\mathcal H_A \\otimes \\mathcal H_B."}
+{"id":312,"tex":"\\psi_A"}
+{"id":313,"tex":"\\psi_B"}
+{"id":314,"tex":"\\psi_A \\otimes \\psi_B."}
+{"id":315,"tex":"\\mathcal H_{AB}"}
+{"id":316,"tex":"\\phi_A"}
+{"id":317,"tex":"\\phi_B"}
+{"id":318,"tex":"\\tfrac{1}{\\sqrt{2}} \\left ( \\psi_A \\otimes \\psi_B + \\phi_A \\otimes \\phi_B \\right )"}
+{"id":319,"tex":"U(t) = e^{-iHt/\\hbar}"}
+{"id":320,"tex":"t"}
+{"id":321,"tex":"U(t)"}
+{"id":322,"tex":"H = \\frac{1}{2m}P^2 = - \\frac {\\hbar ^2}{2m} \\frac {d ^2}{dx^2}."}
+{"id":323,"tex":"\\psi (x,t)=\\frac {1}{\\sqrt {2\\pi }}\\int _{-\\infty}^\\infty{\\hat {\\psi }}(k,0)e^{i(kx -\\frac{\\hbar k^2}{2m} t)}\\mathrm{d}k,"}
+{"id":324,"tex":"e^{i(kx -\\frac{\\hbar k^2}{2m} t)}"}
+{"id":325,"tex":"p = \\hbar k"}
+{"id":326,"tex":"\\hat {\\psi }(k,0)"}
+{"id":327,"tex":"\\psi(x,0)"}
+{"id":328,"tex":"\\psi(x,0) = \\frac{1}{\\sqrt[4]{\\pi a}}e^{-\\frac{x^2}{2a}}"}
+{"id":329,"tex":"\\hat \\psi(k,0) = \\sqrt[4]{\\frac{a}{\\pi}}e^{-\\frac{a k^2}{2}}."}
+{"id":330,"tex":"a"}
+{"id":331,"tex":"- \\frac {\\hbar ^2}{2m} \\frac {d ^2 \\psi}{dx^2} = E \\psi."}
+{"id":332,"tex":"\\hat{p}_x = -i\\hbar\\frac{d}{dx}"}
+{"id":333,"tex":"\\frac{1}{2m} \\hat{p}_x^2 = E,"}
+{"id":334,"tex":"\\psi(x) = A e^{ikx} + B e ^{-ikx} \\qquad\\qquad E = \\frac{\\hbar^2 k^2}{2m}"}
+{"id":335,"tex":"\\psi(x) = C \\sin(kx) + D \\cos(kx).\\!"}
+{"id":336,"tex":"C, D,"}
+{"id":337,"tex":"x=0"}
+{"id":338,"tex":"x=L"}
+{"id":339,"tex":"\\psi(0) = 0 = C\\sin(0) + D\\cos(0) = D"}
+{"id":340,"tex":"D=0"}
+{"id":341,"tex":"\\psi(L) = 0 = C\\sin(kL),"}
+{"id":342,"tex":"C"}
+{"id":343,"tex":"\\sin(kL)=0"}
+{"id":344,"tex":"kL"}
+{"id":345,"tex":"k = \\frac{n\\pi}{L}\\qquad\\qquad n=1,2,3,\\ldots."}
+{"id":346,"tex":"E_n = \\frac{\\hbar^2 \\pi^2 n^2}{2mL^2} = \\frac{n^2h^2}{8mL^2}."}
+{"id":347,"tex":"V(x)=\\frac{1}{2}m\\omega^2x^2."}
+{"id":348,"tex":"\\psi_n(x) = \\sqrt{\\frac{1}{2^n\\, n!}} \\cdot \\left(\\frac{m\\omega}{\\pi \\hbar}\\right)^{1/4} \\cdot e^{\n- \\frac{m\\omega x^2}{2 \\hbar}} \\cdot H_n\\left(\\sqrt{\\frac{m\\omega}{\\hbar}} x \\right), \\qquad"}
+{"id":349,"tex":"n = 0,1,2,\\ldots."}
+{"id":350,"tex":"H_n(x)=(-1)^n e^{x^2}\\frac{d^n}{dx^n}\\left(e^{-x^2}\\right),"}
+{"id":351,"tex":"E_n = \\hbar \\omega \\left(n + {1\\over 2}\\right)."}
+{"id":352,"tex":"\\psi \\in \\mathbb{C}^2"}
+{"id":353,"tex":"\\psi_l = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}"}
+{"id":354,"tex":"\\psi_u = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}"}
+{"id":355,"tex":"\\psi = \\alpha \\psi_l + \\beta \\psi_u"}
+{"id":356,"tex":"\\alpha,\\beta"}
+{"id":357,"tex":"\\langle \\psi,\\psi\\rangle = 1"}
+{"id":358,"tex":"|\\alpha|^2+|\\beta|^2 = 1"}
+{"id":359,"tex":"B = \\frac1{\\sqrt2}\\begin{pmatrix} 1 & i \\\\ i & 1 \\end{pmatrix}"}
+{"id":360,"tex":"1/\\sqrt{2}"}
+{"id":361,"tex":"i/\\sqrt{2}"}
+{"id":362,"tex":"P = \\begin{pmatrix} 1 & 0 \\\\ 0 & e^{i\\Delta\\Phi} \\end{pmatrix}"}
+{"id":363,"tex":"\\Delta\\Phi"}
+{"id":364,"tex":"BPB\\psi_l = ie^{i\\Delta\\Phi/2} \\begin{pmatrix} -\\sin(\\Delta\\Phi/2) \\\\ \\cos(\\Delta\\Phi/2) \\end{pmatrix},"}
+{"id":365,"tex":"p(u) = |\\langle \\psi_u, BPB\\psi_l \\rangle|^2 = \\cos^2 \\frac{\\Delta \\Phi}{2},"}
+{"id":366,"tex":"p(l) = |\\langle \\psi_l, BPB\\psi_l \\rangle|^2 = \\sin^2 \\frac{\\Delta \\Phi}{2}."}
+{"id":367,"tex":"p(u)=p(l) = 1/2"}
+{"id":368,"tex":"\\textstyle -e^2/(4 \\pi\\epsilon_{_0}r)"}
+{"id":369,"tex":"E = h \\nu\\"}
+{"id":370,"tex":"\\aleph"}
+{"id":371,"tex":"\\emptyset"}
+{"id":372,"tex":"0\\!\\!\\!{/}"}
+{"id":373,"tex":"4\\pi r^2"}
+{"id":374,"tex":"4\\pi r^3/3"}
+{"id":375,"tex":"GM/r^2"}
+{"id":376,"tex":"\\sqrt{2GM/r}"}
+{"id":377,"tex":"r = r (0) + Rt \\exp(1/n)"}
+{"id":378,"tex":"(1 + i)(1 - i)"}
+{"id":379,"tex":"\\mathbb F_2"}
+{"id":380,"tex":"1+1=0"}
+{"id":381,"tex":"x=-x"}
+{"id":382,"tex":"n = 29,912"}
+{"id":383,"tex":"\\alpha"}
+{"id":384,"tex":"e(t)"}
+{"id":385,"tex":"\\aleph_0"}
+{"id":386,"tex":"= \\frac{\\textrm{LE} - 20}{85-20} = \\frac{\\textrm{LE} - 20}{65}"}
+{"id":387,"tex":"= \\frac{{\\textrm{MYSI} + \\textrm{EYSI}}} {2}"}
+{"id":388,"tex":"= \\frac{\\textrm{MYS}}{15}"}
+{"id":389,"tex":"= \\frac{\\textrm{EYS}}{18}"}
+{"id":390,"tex":"= \\frac{\\ln(\\textrm{GNIpc}) - \\ln(100)}{\\ln(75,000) - \\ln(100)} = \\frac{\\ln(\\textrm{GNIpc}) - \\ln(100)}{\\ln(750)}"}
+{"id":391,"tex":"\\textrm{HDI} = \\sqrt[3]{\\textrm{LEI}\\cdot \\textrm{EI} \\cdot \\textrm{II}}."}
+{"id":392,"tex":"x\\text{ index} = \\frac{x - a}{b - a}"}
+{"id":393,"tex":"b"}
+{"id":394,"tex":"= \\frac{\\text{LE} - 25} {85-25} = \\frac{\\text{LE} - 25} {60}"}
+{"id":395,"tex":"= \\frac{2} {3} \\times \\text{ALI} + \\frac{1} {3} \\times \\text{GEI}"}
+{"id":396,"tex":"= \\frac{\\text{ALR} - 0} {100 - 0} = \\frac{\\text{ALR}} {100}"}
+{"id":397,"tex":"= \\frac{\\text{CGER} - 0} {100 - 0} =\\frac{\\text{CGER}} {100}"}
+{"id":398,"tex":"= \\frac{\\log(\\text{GDPpc}) - \\log(100)} {\\log(40000) - \\log(100)} = \\frac{\\log(\\text{GDPpc}) - \\log(100)} {\\log(400)}"}
+{"id":399,"tex":"\\mathfrak{L}"}
+{"id":400,"tex":"\\ell"}
+{"id":401,"tex":"D = \\left\\lfloor{Y/100}\\right\\rfloor - \\left\\lfloor{Y/400}\\right\\rfloor - 2,"}
+{"id":402,"tex":"Y"}
+{"id":403,"tex":"\\left\\lfloor{x}\\right\\rfloor"}
+{"id":404,"tex":"e^{-E/kT}"}
+{"id":405,"tex":"\\Delta G \\le 0 \\,"}
+{"id":406,"tex":"[\\bar p,\\bar\\xi, N(\\bar\\xi)]"}
+{"id":407,"tex":"f(x)"}
+{"id":408,"tex":"i"}
+{"id":409,"tex":"\\sqrt{-1}"}
+{"id":410,"tex":"\\Sigma"}
+{"id":411,"tex":"\\Delta"}
+{"id":412,"tex":"e"}
+{"id":413,"tex":"e^x = \\sum_{n=0}^\\infty {x^n \\over n!} = \\lim_{n \\to \\infty} \\left(\\frac{1}{0!} + \\frac{x}{1!} + \\frac{x^2}{2!} + \\cdots + \\frac{x^n}{n!}\\right)."}
+{"id":414,"tex":"\\sum_{n=1}^\\infty {1 \\over n^2} = \\lim_{n \\to \\infty}\\left(\\frac{1}{1^2} + \\frac{1}{2^2} + \\frac{1}{3^2} + \\cdots + \\frac{1}{n^2}\\right) = \\frac{\\pi ^2}{6}."}
+{"id":415,"tex":"\\gamma = \\lim_{n \\rightarrow \\infty } \\left( 1+ \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\cdots + \\frac{1}{n} - \\ln(n) \\right) \\approx 0.5772,"}
+{"id":416,"tex":"e^{i\\varphi} = \\cos \\varphi + i\\sin \\varphi"}
+{"id":417,"tex":"e^{i \\pi} +1 = 0"}
+{"id":418,"tex":"2^{2^n}+1"}
+{"id":419,"tex":"V - E + F = 2"}
+{"id":420,"tex":"\\ ds=\\sum_i\\left( k_i\\cdot p_i - k_i\\right) + 1\\ ,"}
+{"id":421,"tex":"\\frac{a+b^n}{n}=x"}
+{"id":422,"tex":"P = ET + \\Delta S + D + Q"}
+{"id":423,"tex":"\\Delta S"}
+{"id":424,"tex":"| \\psi \\rangle = \\alpha |0 \\rangle + \\beta |1 \\rangle"}
+{"id":425,"tex":"|0\\rangle"}
+{"id":426,"tex":"|1\\rangle"}
+{"id":427,"tex":"|\\psi\\rangle"}
+{"id":428,"tex":"\\alpha|0\\rangle+\\beta|1\\rangle"}
+{"id":429,"tex":"\\beta"}
+{"id":430,"tex":"|\\alpha|^2"}
+{"id":431,"tex":"|\\beta|^2"}
+{"id":432,"tex":"1/\\sqrt {2}|0\\rangle+1/\\sqrt{2}|1\\rangle"}
+{"id":433,"tex":"|+\\rangle = 1/\\sqrt{2}|0\\rangle + 1/\\sqrt{2}|1\\rangle"}
+{"id":434,"tex":"|-\\rangle = 1/\\sqrt{2}|0\\rangle - 1/\\sqrt{2}|1\\rangle"}
+{"id":435,"tex":"|0\\rangle \\leftrightarrow |+\\rangle"}
+{"id":436,"tex":"|1\\rangle \\leftrightarrow |-\\rangle"}
+{"id":437,"tex":"X := \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}."}
+{"id":438,"tex":"X|0\\rangle = |1\\rangle"}
+{"id":439,"tex":"X|1\\rangle = |0\\rangle"}
+{"id":440,"tex":"|00\\rangle := \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 0 \\end{pmatrix};\\quad\n |01\\rangle := \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\\\ 0 \\end{pmatrix};\\quad\n |10\\rangle := \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix};\\quad\n |11\\rangle := \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix}."}
+{"id":441,"tex":"\\operatorname{CNOT} :=\n \\begin{pmatrix}\n  1 & 0 & 0 & 0 \\\\\n   0 & 1 & 0 & 0 \\\\\n   0 & 0 & 0 & 1 \\\\\n   0 & 0 & 1 & 0\n \\end{pmatrix}."}
+{"id":442,"tex":"\\operatorname{CNOT}|00\\rangle = |00\\rangle"}
+{"id":443,"tex":"\\operatorname{CNOT}|01\\rangle = |01\\rangle"}
+{"id":444,"tex":"\\operatorname{CNOT}|10\\rangle = |11\\rangle"}
+{"id":445,"tex":"\\operatorname{CNOT}|11\\rangle = |10\\rangle"}
+{"id":446,"tex":"2^n \\times 2^n"}
+{"id":447,"tex":"O(\\sqrt{n})"}
+{"id":448,"tex":"\\Omega(n)"}
+{"id":449,"tex":"\\mathsf{BPP\\subseteq BQP}"}
+{"id":450,"tex":"\\mathsf{BQP\\neq BPP}"}
+{"id":451,"tex":"\\mathsf{P\\subseteq BQP \\subseteq PSPACE}"}
+{"id":452,"tex":"\\mathsf{NP\\nsubseteq BQP}"}
+{"id":453,"tex":"\\mathsf{T}"}
+{"id":454,"tex":"\\mathsf{L}"}
+{"id":455,"tex":"l"}
+{"id":456,"tex":"\\mathsf{M}"}
+{"id":457,"tex":"m"}
+{"id":458,"tex":"\\mathsf{I}"}
+{"id":459,"tex":"I,\\; i"}
+{"id":460,"tex":"\\mathsf{\\Theta}"}
+{"id":461,"tex":"\\mathsf{N}"}
+{"id":462,"tex":"\\mathsf{J}"}
+{"id":463,"tex":"I_{\\rm v}"}
+{"id":464,"tex":"a \\rightarrow b"}
+{"id":465,"tex":"U_\\textrm{max} = 1000\\ \\textrm{V}"}
+{"id":466,"tex":"U = 1000\\ \\textrm{V}_\\textrm{max}"}
+{"id":467,"tex":"w(\\textrm{Cu}) = 1.3 \\times 10^{-6}"}
+{"id":468,"tex":"\\Delta{m} = m_\\mathrm{f} - m_\\mathrm{b}"}
+{"id":469,"tex":"2.512^{\\Delta{m}} = \\Delta{L}"}
+{"id":470,"tex":"E=mc^2"}
+{"id":471,"tex":"({\\color{Cyan} \\bf 2} \\times 10 + 1 + 1 + 1 + 1) \\times {\\color{CarnationPink} \\bf 2} = 48"}
+{"id":472,"tex":"(3 + 1 + 1 + 10 + 1 + 1 + 1 + 1) \\times {\\color{red} \\bf 3} = 57"}
+{"id":473,"tex":"(3+1+2+1+1+1+1)\\times {\\color{CarnationPink} \\bf 2} \\times {\\color{CarnationPink} \\bf 2} = 40"}
+{"id":474,"tex":"3+4+1+({\\color{blue} \\bf 3} \\times 4) = 20"}
+{"id":475,"tex":"3+1=4"}
+{"id":476,"tex":"1 + ({\\color{blue} \\bf 3} \\times 4) = 13"}
+{"id":477,"tex":"20+4+13 = 37"}
+{"id":478,"tex":"8 + ({\\color{Cyan} \\bf 2} \\times 1) + 3 + 5 + 1 + ({\\color{Cyan} \\bf 2} \\times 0) + 1 = 20"}
+{"id":479,"tex":"3+1+1+10+1+1+1+1+1=20"}
+{"id":480,"tex":"20+20+50=90"}
+{"id":481,"tex":"\\frac{2 \\times 4 \\times 1 \\times 1 \\times 9 \\times 1 \\times 4}{\\binom{100}{7}}"}
+{"id":482,"tex":"c_0"}
+{"id":483,"tex":"\\gamma=\\frac1\\sqrt{1-\\frac{v^2}{c^2}}"}
+{"id":484,"tex":"(\\Delta s)^2 = (\\Delta ct)^2 - (\\Delta x)^2 - (\\Delta y)^2 - (\\Delta z)^2."}
+{"id":485,"tex":"x, y, z"}
+{"id":486,"tex":"c = \\frac{1}{\\sqrt{\\varepsilon_0 \\mu_0}}."}
+{"id":487,"tex":"x\\!"}
+{"id":488,"tex":"\\phi"}
+{"id":489,"tex":"111132.95255 - 559.84957\\, \\cos 2\\phi + 1.17514\\, \\cos 4\\phi - 0.00230\\, \\cos 6\\phi"}
+{"id":490,"tex":"111412.877331\\, \\cos \\phi - 93.504117\\, \\cos 3\\phi + 0.117744\\, \\cos 5\\phi"}
+{"id":491,"tex":"\\frac{\\pi}{180}M_r\\cos \\phi \\!"}
+{"id":492,"tex":"\\textstyle{M_r}\\,\\!"}
+{"id":493,"tex":"\\frac{\\pi}{180}a \\cos \\beta \\,\\!"}
+{"id":494,"tex":"\\textstyle{\\tan \\beta = \\frac{b}{a}\\tan\\phi}\\,\\!"}
+{"id":495,"tex":"\\tfrac{b}{a}=0.99664719"}
+{"id":496,"tex":"\\textstyle{\\beta}\\,\\!"}
+{"id":497,"tex":"s(t)"}
+{"id":498,"tex":"t_0"}
+{"id":499,"tex":"t_1"}
+{"id":500,"tex":"\\frac{\\Delta s}{\\Delta t} = \\frac{s(t_1) - s(t_0)}{t_1 - t_0}."}
+{"id":501,"tex":"s"}
+{"id":502,"tex":"\\mathrm{d}"}
+{"id":503,"tex":"v = \\frac{\\mathrm{d}s}{\\mathrm{d}t}."}
+{"id":504,"tex":"\\mathrm{d}s"}
+{"id":505,"tex":"\\mathrm{d}t"}
+{"id":506,"tex":"f(t)"}
+{"id":507,"tex":"L"}
+{"id":508,"tex":"f"}
+{"id":509,"tex":"\\lim_{t\\to t_0} f(t) = L."}
+{"id":510,"tex":"\\frac{\\mathrm{d}s}{\\mathrm{d}t} = \\lim_{\\Delta t \\to 0} \\frac{s(t + \\Delta t) - s(t)}{\\Delta t}."}
+{"id":511,"tex":"a = \\frac{\\mathrm{d}v}{\\mathrm{d}t} = \\lim_{\\Delta t \\to 0}\\frac{v(t+\\Delta t) - v(t)}{\\Delta t}."}
+{"id":512,"tex":"\\frac{\\mathrm{d}^{2} s}{\\mathrm{d}t^{2}}"}
+{"id":513,"tex":"\\vec{s}"}
+{"id":514,"tex":"{\\bf s}"}
+{"id":515,"tex":"\\mathbf{v} = (\\mathrm{3~m/s}, \\mathrm{4~m/s})"}
+{"id":516,"tex":"\\mathbf{p} = m\\mathbf{v} \\, ,"}
+{"id":517,"tex":"\\mathbf{F} = m \\frac{\\mathrm{d}\\mathbf{v}}{\\mathrm{d}t} = m\\mathbf{a} \\, ."}
+{"id":518,"tex":"\\mathbf{F} = m\\frac{\\mathrm{d}^{2}\\mathbf{s}}{\\mathrm{d}t^{2}} ."}
+{"id":519,"tex":"\\mathbf{F} = \\frac{\\mathrm{d}\\mathbf{p}}{\\mathrm{d}t} \\, ."}
+{"id":520,"tex":"\\mathbf{F} = m \\frac{\\mathrm{d} \\mathbf{v}} {\\mathrm{d}t} + \\mathbf{v}\\frac{\\mathrm{d} m} {\\mathrm{d}t} \\ \\ \\mathrm{(incorrect)}"}
+{"id":521,"tex":"\\mathbf{F}_{\\mathrm{ext}}  = {\\mathrm{d} \\mathbf{p} \\over \\mathrm{d}t} - \\mathbf{v}_{\\mathrm{eject}} \\frac{\\mathrm{d} m}{\\mathrm{d}t}."}
+{"id":522,"tex":"\\mathbf{F}"}
+{"id":523,"tex":"\\mathbf{F} = m\\mathbf{a}"}
+{"id":524,"tex":"\\mathbf{p}_1"}
+{"id":525,"tex":"\\mathbf{p}_2"}
+{"id":526,"tex":"\\mathbf{p} = \\mathbf{p}_1 + \\mathbf{p}_2"}
+{"id":527,"tex":"\\mathbf{p}"}
+{"id":528,"tex":"\\frac{\\mathrm{d}\\mathbf{p}}{\\mathrm{d}t} = \\frac{\\mathrm{d}\\mathbf{p}_{1}}{\\mathrm{d}t} + \\frac{\\mathrm{d}\\mathbf{p}_{2}}{\\mathrm{d}t}."}
+{"id":529,"tex":"F = \\frac{GMm}{r^2} ,"}
+{"id":530,"tex":"ma"}
+{"id":531,"tex":"g"}
+{"id":532,"tex":"g = \\frac{GM}{r^2} \\approx \\mathrm{9.8 ~m/s^2}."}
+{"id":533,"tex":"a = \\frac{v^2}{r}"}
+{"id":534,"tex":"mv^2/r"}
+{"id":535,"tex":"GMm/r^2"}
+{"id":536,"tex":"x = 0"}
+{"id":537,"tex":"F = -kx"}
+{"id":538,"tex":"m\\frac{\\mathrm{d}^{2} x}{\\mathrm{d}t^{2}} = -kx \\, ."}
+{"id":539,"tex":"x(t) = A \\cos \\omega t + B \\sin \\omega t \\,"}
+{"id":540,"tex":"\\omega"}
+{"id":541,"tex":"\\sqrt{k/m}"}
+{"id":542,"tex":"t = 0"}
+{"id":543,"tex":"\\frac{\\mathrm{d}^{2}\\theta}{\\mathrm{d}t^{2}} = -\\frac{g}{L} \\sin\\theta,"}
+{"id":544,"tex":"\\theta"}
+{"id":545,"tex":"\\omega = \\sqrt{g/L}"}
+{"id":546,"tex":"M(t)"}
+{"id":547,"tex":"\\mathbf{v}(t)"}
+{"id":548,"tex":"\\mathbf{u}"}
+{"id":549,"tex":"\\mathbf{F} = M \\frac{\\mathrm{d}\\mathbf{v}}{\\mathrm{d}t} - \\mathbf{u} \\frac{\\mathrm{d}M}{\\mathrm{d}t} \\,"}
+{"id":550,"tex":"\\mathbf{F} = -\\mathbf{\\nabla}U \\, ."}
+{"id":551,"tex":"m_1, \\ldots, m_N"}
+{"id":552,"tex":"\\mathbf{r}_1, \\ldots, \\mathbf{r}_N"}
+{"id":553,"tex":"\\mathbf{R} = \\sum_{i=1}^N \\frac{m_i \\mathbf{r}_i}{M},"}
+{"id":554,"tex":"\\mathbf{r}"}
+{"id":555,"tex":"\\mathbf{L} = \\mathbf{r} \\times \\mathbf{p}."}
+{"id":556,"tex":"\\frac{\\mathrm{d}\\mathbf{L}}{\\mathrm{d}t} = \\left(\\frac{\\mathrm{d}\\mathbf{r}}{\\mathrm{d}t}\\right) \\times \\mathbf{p} + \\mathbf{r} \\times \\frac{\\mathrm{d}\\mathbf{p}}{\\mathrm{d}t} = \\mathbf{v} \\times m\\mathbf{v} +  \\mathbf{r} \\times \\mathbf{F}."}
+{"id":557,"tex":"\\mathbf{v}"}
+{"id":558,"tex":"m\\mathbf{v}"}
+{"id":559,"tex":"\\mathbf{\\tau} = \\mathbf{r} \\times \\mathbf{F}."}
+{"id":560,"tex":"\\mathbf{r} = 0"}
+{"id":561,"tex":"\\mathbf{v}(\\mathbf{x},t)"}
+{"id":562,"tex":"\\mathbf{a}"}
+{"id":563,"tex":"\\mathbf{a} = \\mathbf{F}/m"}
+{"id":564,"tex":"\\frac{\\partial v}{\\partial t} + (\\mathbf{\\nabla} \\cdot \\mathbf{v}) \\mathbf{v} = -\\frac{1}{\\rho} \\mathbf{\\nabla}P + \\mathbf{f} ,"}
+{"id":565,"tex":"\\rho"}
+{"id":566,"tex":"\\mathbf{f}"}
+{"id":567,"tex":"\\frac{\\partial v}{\\partial t} + (\\mathbf{\\nabla} \\cdot \\mathbf{v}) \\mathbf{v} = -\\frac{1}{\\rho} \\mathbf{\\nabla}P + \\nu \\nabla^2 \\mathbf{v} + \\mathbf{f} ,"}
+{"id":568,"tex":"q"}
+{"id":569,"tex":"\\dot{q}"}
+{"id":570,"tex":"L(q,\\dot{q}) = T - V,"}
+{"id":571,"tex":"T = \\frac{1}{2}m\\dot{q}^2"}
+{"id":572,"tex":"V(q)"}
+{"id":573,"tex":"q_i"}
+{"id":574,"tex":"q_f"}
+{"id":575,"tex":"\\frac{\\mathrm{d}}{\\mathrm{d}t} \\left(\\frac{\\partial L}{\\partial \\dot{q}}\\right) = \\frac{\\partial L}{\\partial q}."}
+{"id":576,"tex":"\\frac{\\mathrm{d}}{\\mathrm{d}t} (m \\dot{q}) = -\\frac{\\mathrm{d}V}{\\mathrm{d}q},"}
+{"id":577,"tex":"p"}
+{"id":578,"tex":"\\mathcal{H}(p,q) = \\frac{p^2}{2m} + V(q)."}
+{"id":579,"tex":"\\frac{\\mathrm{d}q}{\\mathrm{d}t} = \\frac{\\partial\\mathcal{H}}{\\partial p}"}
+{"id":580,"tex":"\\frac{\\mathrm{d}p}{\\mathrm{d}t} = -\\frac{\\partial\\mathcal{H}}{\\partial q}."}
+{"id":581,"tex":"\\frac{\\mathrm{d}q}{\\mathrm{d}t} = \\frac{p}{m},"}
+{"id":582,"tex":"\\frac{\\mathrm{d}p}{\\mathrm{d}t} = -\\frac{\\mathrm{d}V}{\\mathrm{d}q},"}
+{"id":583,"tex":"S(\\mathbf{q}_1,\\mathbf{q}_2,\\ldots,t)"}
+{"id":584,"tex":"\\mathbf{q}_i"}
+{"id":585,"tex":"S(\\mathbf{q},t)"}
+{"id":586,"tex":"\\mathbf{v} = \\frac{1}{m} \\mathbf{\\nabla} S."}
+{"id":587,"tex":"- \\frac{\\partial S}{\\partial t} = H\\left(\\mathbf{q}, \\mathbf{\\nabla} S, t \\right)."}
+{"id":588,"tex":"V(\\mathbf{q})"}
+{"id":589,"tex":"-\\frac{\\partial S}{\\partial t} = \\frac{1}{2m} \\left(\\mathbf{\\nabla} S\\right)^2 + V(\\mathbf{q})."}
+{"id":590,"tex":"-\\mathbf{\\nabla}\\frac{\\partial S}{\\partial t} = \\frac{1}{2m} \\mathbf{\\nabla} \\left(\\mathbf{\\nabla} S\\right)^2 + \\mathbf{\\nabla} V."}
+{"id":591,"tex":"-\\frac{\\partial}{\\partial t}\\mathbf{\\nabla} S = \\frac{1}{m} \\left(\\mathbf{\\nabla} S \\cdot \\mathbf{\\nabla}\\right) \\mathbf{\\nabla} S + \\mathbf{\\nabla} V."}
+{"id":592,"tex":"\\left[\\frac{\\partial}{\\partial t} + \\frac{1}{m} \\left(\\mathbf{\\nabla} S \\cdot \\mathbf{\\nabla}\\right)\\right] \\mathbf{\\nabla} S = -\\mathbf{\\nabla} V."}
+{"id":593,"tex":"\\left[\\frac{\\partial}{\\partial t} + \\frac{1}{m} \\left(\\mathbf{\\nabla} S \\cdot \\mathbf{\\nabla}\\right)\\right] = \\left[\\frac{\\partial}{\\partial t} + \\mathbf{v}\\cdot\\mathbf{\\nabla}\\right] = \\frac{\\mathrm{d}}{\\mathrm{d}t}."}
+{"id":594,"tex":"m \\mathbf{a} = -\\gamma \\mathbf{v} + \\mathbf{\\xi} \\,"}
+{"id":595,"tex":"\\gamma"}
+{"id":596,"tex":"\\mathbf{\\xi}"}
+{"id":597,"tex":"q_1"}
+{"id":598,"tex":"q_2"}
+{"id":599,"tex":"\\mathbf{F} = q \\mathbf{E} + q \\mathbf{v} \\times \\mathbf{B}."}
+{"id":600,"tex":"\\mathbf{E} = 0"}
+{"id":601,"tex":"\\omega = qB/m"}
+{"id":602,"tex":"\\mathbf{p} = m\\gamma \\mathbf{v}"}
+{"id":603,"tex":"F = ma"}
+{"id":604,"tex":"[4 \\times (3 + 2)]^2 = 400."}
+{"id":605,"tex":"\\left\\langle V(t)^2 \\right\\rangle = \\lim_{T\\to\\infty} \\frac{1}{T}\\int_{-\\frac{T}{2}}^{\\frac{T}{2}} V(t)^2\\,{\\rm{d}}t."}
+{"id":606,"tex":"n^2"}
+{"id":607,"tex":"\\mathbb F_3"}
+{"id":608,"tex":"y^2=x^3+Ax+B"}
+{"id":609,"tex":"\\mathcal{S}"}
+{"id":610,"tex":"\\mathrm {S_{3}}"}
+{"id":611,"tex":"\\sigma"}
+{"id":612,"tex":"P = P_\\text{before}+I(W-W_e)"}
+{"id":613,"tex":"W_e = \\frac{1}{10^{-\\frac{\\Delta}{c}} + 1}"}
+{"id":614,"tex":"c=600"}
+{"id":615,"tex":"P_\\text{seeding}=1600-(R-1)\\times 4"}
+{"id":616,"tex":"W_\\text{winner}= 0.75"}
+{"id":617,"tex":"W_\\text{loser} = 0.5"}
+{"id":618,"tex":"W_\\text{winner} + W_\\text{loser} = 1.25"}
+{"id":619,"tex":"W-W_e"}
+{"id":620,"tex":"W_e>0.75"}
+{"id":621,"tex":"I"}
+{"id":622,"tex":"\\frac{1+\\sqrt 5}{2}"}
+{"id":623,"tex":"n \\ge 34"}
+{"id":624,"tex":"\\mathrm {F_1}"}
+{"id":625,"tex":"\\mathrm{HN}"}
+{"id":626,"tex":"\\mu(t) (1 + E t)/E"}
+{"id":627,"tex":"\\mu(t)"}
+{"id":628,"tex":"T_{1848} = f(T)"}
+{"id":629,"tex":"dT_{1848} / dT"}
+{"id":630,"tex":"\\mu"}
+{"id":631,"tex":"\\mu(t) = J \\frac{E}{1+E t},"}
+{"id":632,"tex":"T_{1848} = 100  \\frac{\\log(T / \\text{273 K})}{\\log(\\text{373 K} / \\text{273 K})}"}
+{"id":633,"tex":"Q_\\mathrm{H}"}
+{"id":634,"tex":"Q_\\mathrm{C}"}
+{"id":635,"tex":"Q_\\mathrm{H} - Q_\\mathrm{C}"}
+{"id":636,"tex":"t_\\mathrm{H}"}
+{"id":637,"tex":"t_\\mathrm{C}"}
+{"id":638,"tex":"\\mu =W / Q_\\mathrm{H}(t_\\mathrm{H} - t_\\mathrm{C})"}
+{"id":639,"tex":"T_\\mathrm{H} = J/\\mu"}
+{"id":640,"tex":"T_\\mathrm{H}= J Q_\\mathrm{H}  (t_\\mathrm{H}-t_\\mathrm{C})/W"}
+{"id":641,"tex":"T_\\mathrm{H}-T_\\mathrm{C}=J  (t_\\mathrm{H}-t_\\mathrm{C})"}
+{"id":642,"tex":"Q_\\mathrm{H} / T_\\mathrm{H} = Q_\\mathrm{C} / T_\\mathrm{C}"}
+{"id":643,"tex":"a+ax+ax^2+ax^3+ax^4+ax^5+\\cdots=\\frac{a}{1-x}."}
+{"id":644,"tex":"10+0.1+0.001+0.00001+\\cdots"}
+{"id":645,"tex":"=\\frac {10}{1-0.01}= \\frac {10}{0.99}=10.10101\\ldots\\text{ seconds}."}
+{"id":646,"tex":"\\infty"}
+{"id":647,"tex":"\\tfrac{1}{\\infty}."}
+{"id":648,"tex":"x \\rightarrow \\infty"}
+{"id":649,"tex":"x \\to -\\infty"}
+{"id":650,"tex":"f(t)\\ge 0"}
+{"id":651,"tex":"\\int_{a}^{b} f(t)\\, dt = \\infty"}
+{"id":652,"tex":"b."}
+{"id":653,"tex":"\\int_{-\\infty}^{\\infty} f(t)\\, dt = \\infty"}
+{"id":654,"tex":"\\int_{-\\infty}^{\\infty} f(t)\\, dt = a"}
+{"id":655,"tex":"a."}
+{"id":656,"tex":"\\sum_{i=0}^{\\infty} f(i) = a"}
+{"id":657,"tex":"\\sum_{i=0}^{\\infty} f(i) = \\infty"}
+{"id":658,"tex":"+\\infty"}
+{"id":659,"tex":"-\\infty"}
+{"id":660,"tex":"|x|"}
+{"id":661,"tex":"z/0 = \\infty"}
+{"id":662,"tex":"z"}
+{"id":663,"tex":"\\mathbf c"}
+{"id":664,"tex":"{\\aleph_0}"}
+{"id":665,"tex":"\\mathbf{c}=2^{\\aleph_0}>{\\aleph_0}"}
+{"id":666,"tex":"\\mathbf{c}=\\aleph_1=\\beth_1"}
+{"id":667,"tex":"\\sqrt[3]{A}"}
+{"id":668,"tex":"M= \\{ X : X \\not\\in X \\}"}
+{"id":669,"tex":"\\Gamma\\vdash x: \\text{Int}"}
+{"id":670,"tex":"\\mathrm{CO_{2}}"}
+{"id":671,"tex":"N = R_{\\ast} \\cdot f_p \\cdot n_e \\cdot f_{\\ell} \\cdot f_i \\cdot f_c \\cdot L"}
+{"id":672,"tex":"10{,}000 = 5 \\cdot 0.5 \\cdot 2 \\cdot 1 \\cdot 0.2 \\cdot 1 \\cdot 10{,}000"}
+{"id":673,"tex":"F_0=0,\\quad F_1= 1,"}
+{"id":674,"tex":"F_n=F_{n-1} + F_{n-2}"}
+{"id":675,"tex":"F_0 = 0"}
+{"id":676,"tex":"F_1=F_2=1"}
+{"id":677,"tex":"F_{-n} = (-1)^{n+1} F_n."}
+{"id":678,"tex":"F_n = \\frac{\\varphi^n-\\psi^n}{\\varphi-\\psi} = \\frac{\\varphi^n-\\psi^n}{\\sqrt 5},"}
+{"id":679,"tex":"\\begin{align}\n\\varphi &= \\tfrac12\\bigl(1 + \\sqrt{5}~\\!\\bigr)= \\phantom{-}1.61803\\ldots, \\\\[5mu]\n\\psi &= \\tfrac12\\bigl(1 - \\sqrt{5}~\\!\\bigr) = -0.61803\\ldots.\n\\end{align}"}
+{"id":680,"tex":"\\psi = -\\varphi^{-1}"}
+{"id":681,"tex":"F_n = \\frac{\\varphi^n - (-\\varphi)^{-n}}{\\sqrt 5} = \\frac{\\varphi^n - (-\\varphi)^{-n}}{2\\varphi - 1}."}
+{"id":682,"tex":"\\varphi"}
+{"id":683,"tex":"x^n = x^{n-1} + x^{n-2},"}
+{"id":684,"tex":"\\begin{align}\n\\varphi^n &= \\varphi^{n-1} + \\varphi^{n-2}, \\\\[3mu]\n\\psi^n &= \\psi^{n-1} + \\psi^{n-2}.\n\\end{align}"}
+{"id":685,"tex":"U_n=a \\varphi^n + b \\psi^n"}
+{"id":686,"tex":"\\begin{align} a \\varphi^0 + b \\psi^0 &= 0 \\\\  a \\varphi^1 + b \\psi^1 &= 1\\end{align}"}
+{"id":687,"tex":"a = \\frac{1}{\\varphi-\\psi} = \\frac{1}{\\sqrt 5},\\quad  b = -a,"}
+{"id":688,"tex":"\\begin{align}\na&=\\frac{U_1-U_0\\psi}{\\sqrt 5}, \\\\[3mu]\nb&=\\frac{U_0\\varphi-U_1}{\\sqrt 5}.\n\\end{align}"}
+{"id":689,"tex":"\\left|\\frac{\\psi^{n}}{\\sqrt 5}\\right| < \\frac{1}{2}"}
+{"id":690,"tex":"\\frac{\\varphi^n}{\\sqrt 5}"}
+{"id":691,"tex":"F_n=\\left\\lfloor\\frac{\\varphi^n}{\\sqrt 5}\\right\\rceil,\\ n \\geq 0."}
+{"id":692,"tex":"n(F) = \\left\\lfloor  \\log_\\varphi \\sqrt{5}F\\right\\rceil,\\ F \\geq 1."}
+{"id":693,"tex":"n_{\\mathrm{largest}}(F) = \\left\\lfloor  \\log_\\varphi \\sqrt{5}(F+1/2)\\right\\rfloor,\\ F \\geq 0,"}
+{"id":694,"tex":"\\log_\\varphi(x) = \\ln(x)/\\ln(\\varphi) = \\log_{10}(x)/\\log_{10}(\\varphi)"}
+{"id":695,"tex":"\\ln(\\varphi) = 0.481211\\ldots"}
+{"id":696,"tex":"\\log_{10}(\\varphi) = 0.208987\\ldots"}
+{"id":697,"tex":"\\varphi^n/\\sqrt5"}
+{"id":698,"tex":"n\\log_{10}\\varphi\\approx 0.2090\\, n"}
+{"id":699,"tex":"n\\log_b\\varphi = \\frac{n \\log \\varphi}{\\log b}."}
+{"id":700,"tex":"\\lim_{n\\to\\infty}\\frac{F_{n+1}}{F_n}=\\varphi."}
+{"id":701,"tex":"U_0"}
+{"id":702,"tex":"U_1"}
+{"id":703,"tex":"U_1 = -U_0/\\varphi"}
+{"id":704,"tex":"\\lim_{n\\to\\infty}\\frac{F_{n+m}}{F_n}=\\varphi^m"}
+{"id":705,"tex":"\\varphi^2 = \\varphi + 1,"}
+{"id":706,"tex":"\\varphi^n"}
+{"id":707,"tex":"\\varphi^n = F_n\\varphi + F_{n-1}."}
+{"id":708,"tex":"\\begin{align}\n\\varphi^{n+1} &= (F_n\\varphi + F_{n-1})\\varphi = F_n\\varphi^2 + F_{n-1}\\varphi \\\\\n&= F_n(\\varphi+1) + F_{n-1}\\varphi = (F_n + F_{n-1})\\varphi + F_n = F_{n+1}\\varphi + F_n.\n\\end{align}"}
+{"id":709,"tex":"\\psi = -1/\\varphi"}
+{"id":710,"tex":"\\psi^2 = \\psi + 1"}
+{"id":711,"tex":"\\psi^n = F_n\\psi + F_{n-1}."}
+{"id":712,"tex":"F_n = F_{n+2} - F_{n+1}."}
+{"id":713,"tex":"5x^2+4"}
+{"id":714,"tex":"5x^2-4"}
+{"id":715,"tex":"F_n = (\\varphi^n - (-1)^n \\varphi^{-n}) / \\sqrt{5}"}
+{"id":716,"tex":"\\sqrt{5} \\varphi^n"}
+{"id":717,"tex":"\\varphi^n = \\frac{F_n\\sqrt{5} \\pm \\sqrt{5{F_n}^{\\!2} + 4{(-1)}^n}}{2}."}
+{"id":718,"tex":"\\varphi^n = F_n \\varphi + F_{n-1} = (F_n\\sqrt{5} + F_n + 2 F_{n-1})/2"}
+{"id":719,"tex":"5{F_n}^{\\!2} + 4(-1)^n = (F_n + 2F_{n-1})^2\\,."}
+{"id":720,"tex":"\\begin{pmatrix} F_{k+2} \\\\ F_{k+1} \\end{pmatrix}\n= \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} F_{k+1} \\\\ F_{k}\\end {pmatrix}"}
+{"id":721,"tex":"\\vec F_{k+1} = \\mathbf{A} \\vec F_{k},"}
+{"id":722,"tex":"\\vec F_n = \\mathbf{A}^n  \\vec F_0"}
+{"id":723,"tex":"\\varphi=\\tfrac12\\bigl(1+\\sqrt5~\\!\\bigr)"}
+{"id":724,"tex":"\\psi=-\\varphi^{-1}=\\tfrac12\\bigl(1-\\sqrt5~\\!\\bigr)"}
+{"id":725,"tex":"\\vec \\mu=\\begin{pmatrix} \\varphi \\\\ 1 \\end{pmatrix}, \\quad \\vec\\nu=\\begin{pmatrix} -\\varphi^{-1} \\\\ 1 \\end{pmatrix}."}
+{"id":726,"tex":"\\vec F_0=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}=\\frac{1}{\\sqrt{5}}\\vec{\\mu}\\,-\\,\\frac{1}{\\sqrt{5}}\\vec{\\nu},"}
+{"id":727,"tex":"\\begin{align}\n  \\vec F_n\\ &= \\frac{1}{\\sqrt{5}}A^n\\vec\\mu-\\frac{1}{\\sqrt{5}}A^n\\vec\\nu \\\\\n  &= \\frac{1}{\\sqrt{5}}\\varphi^n\\vec\\mu - \\frac{1}{\\sqrt{5}}(-\\varphi)^{-n}\\vec\\nu \\\\\n  &= \\cfrac{1}{\\sqrt{5}}\\left(\\cfrac{1+\\sqrt{5}}{2}\\right)^{\\!n}\\begin{pmatrix} \\varphi \\\\ 1 \\end{pmatrix} \\,-\\, \\cfrac{1}{\\sqrt{5}}\\left(\\cfrac{1-\\sqrt{5}}{2}\\right)^{\\!n}\\begin{pmatrix}{c} -\\varphi^{-1} \\\\ 1 \\end{pmatrix}.\n\\end{align}"}
+{"id":728,"tex":"F_n = \\cfrac{1}{\\sqrt{5}}\\left(\\cfrac{1+\\sqrt{5}}{2}\\right)^{\\!n} - \\, \\cfrac{1}{\\sqrt{5}}\\left(\\cfrac{1-\\sqrt{5}}{2}\\right)^{\\!n}."}
+{"id":729,"tex":"\\begin{align} \n  A & = S\\Lambda S^{-1}, \\\\[3mu]\n  A^n & = S\\Lambda^n S^{-1},\n\\end{align}"}
+{"id":730,"tex":"\\Lambda=\\begin{pmatrix} \\varphi & 0 \\\\ 0 & -\\varphi^{-1}\\! \\end{pmatrix}, \\quad\n  S=\\begin{pmatrix} \\varphi & -\\varphi^{-1} \\\\ 1 & 1 \\end{pmatrix}."}
+{"id":731,"tex":"\\begin{align} \n  \\begin{pmatrix} F_{n+1} \\\\ F_n \\end{pmatrix} & = \n  A^{n} \\begin{pmatrix} F_1 \\\\ F_0 \\end{pmatrix}\\ \n  \\\\ & = S \\Lambda^n S^{-1} \\begin{pmatrix} F_1 \\\\ F_0 \\end{pmatrix} \n  \\\\ & = S \\begin{pmatrix} \\varphi^n & 0 \\\\ 0 & (-\\varphi)^{-n} \\end{pmatrix} S^{-1} \n    \\begin{pmatrix} F_1 \\\\ F_0 \\end{pmatrix} \n  \\\\ & = \\begin{pmatrix} \\varphi & -\\varphi^{-1} \\\\ 1 & 1 \\end{pmatrix}\n     \\begin{pmatrix}\\varphi^n & 0 \\\\ 0 & (-\\varphi)^{-n} \\end{pmatrix}\n     \\frac{1}{\\sqrt{5}}\\begin{pmatrix} 1 & \\varphi^{-1} \\\\ -1 & \\varphi \\end{pmatrix} \n     \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix},\n\\end{align}"}
+{"id":732,"tex":"F_n = \\cfrac{\\varphi^n-(-\\varphi)^{-n}}{\\sqrt{5}}."}
+{"id":733,"tex":"\\varphi = 1 + \\cfrac{1}{1 + \\cfrac{1}{1 + \\cfrac{1}{1 + \\ddots}}}."}
+{"id":734,"tex":"\\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}^n = \n  \\begin{pmatrix} F_{n+1} & F_n \\\\ F_n & F_{n-1} \\end{pmatrix}."}
+{"id":735,"tex":"(-1)^n = F_{n+1}F_{n-1} - {F_n}^2."}
+{"id":736,"tex":"\\begin{align}\n {F_m}{F_n} + {F_{m-1}}{F_{n-1}} &= F_{m+n-1}, \\\\[3mu]\n F_{m} F_{n+1} + F_{m-1} F_n &= F_{m+n} .\n\\end{align}"}
+{"id":737,"tex":"\\begin{align}\n F_{2 n-1} &= {F_n}^2 + {F_{n-1}}^2 \\\\[6mu]\n F_{2 n\\phantom{{}-1}}   &= (F_{n-1}+F_{n+1})F_n \\\\[3mu]\n          &= (2 F_{n-1}+F_n)F_n \\\\[3mu]\n          &= (2 F_{n+1}-F_n)F_n.\n\\end{align}"}
+{"id":738,"tex":"F_n"}
+{"id":739,"tex":"n-1"}
+{"id":740,"tex":"F_1 = 1"}
+{"id":741,"tex":"|{...}|"}
+{"id":742,"tex":"F_0 = 0 = |\\{\\}|"}
+{"id":743,"tex":"F_1 = 1 = |\\{()\\}|"}
+{"id":744,"tex":"F_2 = 1 = |\\{(1)\\}|"}
+{"id":745,"tex":"F_3 = 2 = |\\{(1,1),(2)\\}|"}
+{"id":746,"tex":"F_4 = 3 = |\\{(1,1,1),(1,2),(2,1)\\}|"}
+{"id":747,"tex":"F_5 = 5 = |\\{(1,1,1,1),(1,1,2),(1,2,1),(2,1,1),(2,2)\\}|"}
+{"id":748,"tex":"F_n = F_{n-1} + F_{n-2}"}
+{"id":749,"tex":"F_n = |\\{(1,...),(1,...),...\\}| + |\\{(2,...),(2,...),...\\}|"}
+{"id":750,"tex":"n-2"}
+{"id":751,"tex":"n-3"}
+{"id":752,"tex":"F_{n-1}"}
+{"id":753,"tex":"F_{n-2}"}
+{"id":754,"tex":"F_{n-1}+F_{n-2}"}
+{"id":755,"tex":"\\sum_{i=1}^n F_i = F_{n+2} - 1"}
+{"id":756,"tex":"n+1"}
+{"id":757,"tex":"(2,...), (1,2,...), ...,"}
+{"id":758,"tex":"\\{(1,1,...,1,2)\\}, \\{(1,1,...,1)\\}"}
+{"id":759,"tex":"F_{n+2} = F_n + F_{n-1} + ... + |\\{(1,1,...,1,2)\\}| + |\\{(1,1,...,1)\\}|"}
+{"id":760,"tex":"\\sum_{i=1}^n F_i = F_{n+2}-1"}
+{"id":761,"tex":"\\sum_{i=0}^{n-1} F_{2 i+1} = F_{2 n}"}
+{"id":762,"tex":"\\sum_{i=1}^{n} F_{2 i} = F_{2 n+1}-1."}
+{"id":763,"tex":"F_{2 n-1}"}
+{"id":764,"tex":"F_{2 n}"}
+{"id":765,"tex":"\\sum_{i=1}^n F_i^2 = F_n F_{n+1}"}
+{"id":766,"tex":"F_n \\times F_{n+1}"}
+{"id":767,"tex":"F_n, F_{n-1}, ..., F_1"}
+{"id":768,"tex":"\\sum_{i=1}^n F_i = F_{n+2} - 1."}
+{"id":769,"tex":"F_{n+1}"}
+{"id":770,"tex":"\\sum_{i=1}^n F_i + F_{n+1} = F_{n+1} + F_{n+2} - 1"}
+{"id":771,"tex":"\\sum_{i=1}^{n+1} F_i = F_{n+3} - 1"}
+{"id":772,"tex":"{F_{n+1}}^2"}
+{"id":773,"tex":"\\sum_{i=1}^n F_i^2 + {F_{n+1}}^2 = F_{n+1}\\left(F_n + F_{n+1}\\right)"}
+{"id":774,"tex":"\\sum_{i=1}^{n+1} F_i^2 = F_{n+1}F_{n+2}"}
+{"id":775,"tex":"\\sqrt5F_n = \\varphi^n - \\psi^n."}
+{"id":776,"tex":"\\sqrt5"}
+{"id":777,"tex":"\\begin{align}\n1 +& \\varphi + \\varphi^2 + \\dots + \\varphi^n - \\left(1 + \\psi + \\psi^2 + \\dots + \\psi^n \\right)\\\\\n&= \\frac{\\varphi^{n+1}-1}{\\varphi-1} - \\frac{\\psi^{n+1}-1}{\\psi-1}\\\\\n&= \\frac{\\varphi^{n+1}-1}{-\\psi} - \\frac{\\psi^{n+1}-1}{-\\varphi}\\\\\n&= \\frac{-\\varphi^{n+2}+\\varphi + \\psi^{n+2}-\\psi}{\\varphi\\psi}\\\\\n&= \\varphi^{n+2}-\\psi^{n+2}-(\\varphi-\\psi)\\\\\n&= \\sqrt5(F_{n+2}-1)\\\\\n\\end{align}"}
+{"id":778,"tex":"\\varphi\\psi =- 1"}
+{"id":779,"tex":"\\varphi-\\psi=\\sqrt5"}
+{"id":780,"tex":"F_n^2 - F_{n+1}F_{n-1} = (-1)^{n-1}"}
+{"id":781,"tex":"F_n^2 - F_{n+r}F_{n-r} = (-1)^{n-r}F_r^2"}
+{"id":782,"tex":"F_m F_{n+1} - F_{m+1} F_n = (-1)^n F_{m-n}"}
+{"id":783,"tex":"F_{2 n} = F_{n+1}^2 - F_{n-1}^2 = F_n \\left (F_{n+1}+F_{n-1} \\right ) = F_nL_n"}
+{"id":784,"tex":"F_{3 n} = 2F_n^3 + 3 F_n F_{n+1} F_{n-1} = 5F_n^3 + 3 (-1)^n F_n"}
+{"id":785,"tex":"F_{3 n+1} = F_{n+1}^3 + 3 F_{n+1}F_n^2 - F_n^3"}
+{"id":786,"tex":"F_{3 n+2} = {F_{n+1}}^3 + 3 F_{n+1}^2 F_n + F_n^3"}
+{"id":787,"tex":"F_{4 n} = 4 F_n F_{n+1} \\left ( F_{n+1}^2 + 2F_n^2 \\right ) - 3F_n^2 \\left (F_n^2 + 2F_{n+1}^2 \\right )"}
+{"id":788,"tex":"F_{k n+c} = \\sum_{i=0}^k \\binom k i F_{c-i} F_n^i F_{n+1}^{k-i}."}
+{"id":789,"tex":"F_{k n+c} = \\sum_{i=0}^k \\binom k i F_{c+i} F_n^i F_{n-1}^{k-i}."}
+{"id":790,"tex":"s(z) = \\sum_{k=0}^\\infty F_k z^k = 0 + z + z^2 + 2z^3 + 3z^4 + 5z^5 + \\cdots."}
+{"id":791,"tex":"|z| < 1/\\varphi \\approx 0.618,"}
+{"id":792,"tex":"s(z)=\\frac{z}{1-z-z^2}."}
+{"id":793,"tex":"(1-z-z^2)"}
+{"id":794,"tex":"\\begin{align}\n(1 - z- z^2) s(z)\n  &= \\sum_{k=0}^{\\infty} F_k z^k - \\sum_{k=0}^{\\infty} F_k z^{k+1} - \\sum_{k=0}^{\\infty} F_k z^{k+2} \\\\\n  &= \\sum_{k=0}^{\\infty} F_k z^k - \\sum_{k=1}^{\\infty} F_{k-1} z^k - \\sum_{k=2}^{\\infty} F_{k-2} z^k \\\\\n  &= 0z^0 + 1z^1 - 0z^1 + \\sum_{k=2}^{\\infty} (F_k - F_{k-1} - F_{k-2}) z^k \\\\\n  &= z,\n\\end{align}"}
+{"id":795,"tex":"z^k"}
+{"id":796,"tex":"k \\ge 2"}
+{"id":797,"tex":"z={10}^{-n}"}
+{"id":798,"tex":"s(z)"}
+{"id":799,"tex":"s(10^{-3}) = \\frac{0.001}{0.998999} = \\frac{1000}{998999} = 000.\\,001\\,001\\,002\\,003\\,005\\,008\\,013\\,\\ldots."}
+{"id":800,"tex":"s(z) = \\frac{1}{\\sqrt5}\\left(\\frac{1}{1 - \\varphi z} - \\frac{1}{1 - \\psi z}\\right)"}
+{"id":801,"tex":"\\varphi = \\tfrac12\\left(1 + \\sqrt{5}\\right)"}
+{"id":802,"tex":"\\psi = \\tfrac12\\left(1 - \\sqrt{5}\\right)"}
+{"id":803,"tex":"\\begin{align}\\sum_{k=0}^{\\infty} F_{k+2} \\frac{x^{k}}{k!} = {} & \\sum_{k=0}^{\\infty} F_{k+1} \\frac{x^{k}}{k!} + \\sum_{k=0}^{\\infty} F_{k} \\frac{x^{k}}{k!}\\\\\nF^{\\prime\\prime}(x) = {} & F^{\\prime}(x) + F(x)\n\\end{align}"}
+{"id":804,"tex":"r^2 = r + 1"}
+{"id":805,"tex":"F_{0}=F(0)=0"}
+{"id":806,"tex":"F_{1}=F^{\\prime}(0)=1"}
+{"id":807,"tex":"F(x) = \\frac{e^{\\varphi x} - e^{\\psi x}}{\\sqrt{5}}"}
+{"id":808,"tex":"F^{(n)}(0) = F_{n} = \\frac{\\varphi^{n} - \\psi^{n}}{\\sqrt{5}}"}
+{"id":809,"tex":"\\sum_{k=1}^\\infty \\frac{1}{F_{2 k-1}} = \\frac{\\sqrt{5}}{4} \\; \\vartheta_2\\!\\left(0, \\frac{3-\\sqrt 5}{2}\\right)^2 ,"}
+{"id":810,"tex":"\\sum_{k=1}^\\infty \\frac{1}{{F_k}^2} = \\frac{5}{24} \\!\\left(\\vartheta_2\\!\\left(0, \\frac{3-\\sqrt 5}{2}\\right)^4 - \\vartheta_4\\!\\left(0, \\frac{3-\\sqrt 5}{2}\\right)^4 + 1 \\right)."}
+{"id":811,"tex":"\\sum_{k=1}^\\infty \\frac{1}{1+F_{2 k-1}} = \\frac{\\sqrt{5}}{2},"}
+{"id":812,"tex":"\\sum_{k=1}^\\infty \\frac{(-1)^{k+1}}{\\sum_{j=1}^k {F_{j}}^2} = \\frac{\\sqrt{5}-1}{2} ."}
+{"id":813,"tex":"\\sum_{k=1}^{\\infty} \\frac{1}{F_{2 k}} = \\sqrt{5} \\left(L(\\psi^2) - L(\\psi^4)\\right)"}
+{"id":814,"tex":"\\textstyle L(q) := \\sum_{k=1}^{\\infty} \\frac{q^k}{1-q^k} ,"}
+{"id":815,"tex":"\\textstyle \\frac{1}{F_{2 k}} = \\sqrt{5} \\left(\\frac{\\psi^{2 k}}{1-\\psi^{2 k}} - \\frac{\\psi^{4 k}}{1-\\psi^{4 k}} \\right)\\!."}
+{"id":816,"tex":"\\sum_{k=1}^{\\infty} \\frac{1}{F_k} = \\sum_{k=1}^\\infty \\frac{1}{F_{2 k-1}} + \\sum_{k=1}^{\\infty} \\frac {1}{F_{2 k}} = 3.359885666243 \\dots"}
+{"id":817,"tex":"\\sum_{k=0}^{\\infty} \\frac{1}{F_{2^k}} = \\frac{7 - \\sqrt{5}}{2},"}
+{"id":818,"tex":"\\sum_{k=0}^N \\frac{1}{F_{2^k}} = 3 - \\frac{F_{2^N-1}}{F_{2^N}}."}
+{"id":819,"tex":"\\gcd(F_a,F_b,F_c,\\ldots) = F_{\\gcd(a,b,c,\\ldots)}\\,"}
+{"id":820,"tex":"F_1=1"}
+{"id":821,"tex":"\\gcd(F_n, F_{n+1}) = \\gcd(F_n, F_{n+2}) = \\gcd(F_{n+1}, F_{n+2}) = 1"}
+{"id":822,"tex":"\\begin{cases} p =5 & \\Rightarrow p \\mid F_{p}, \\\\ p \\equiv \\pm1 \\pmod 5 & \\Rightarrow p \\mid F_{p-1}, \\\\ p \\equiv \\pm2 \\pmod 5 &  \\Rightarrow p \\mid F_{p+1}.\\end{cases}"}
+{"id":823,"tex":"F_{p-\\varepsilon}/p"}
+{"id":824,"tex":"p \\mid F_{p \\,-~\\! \\left(\\frac{5}{p}\\right)}."}
+{"id":825,"tex":"n \\mid F_{n \\,-~\\! \\left(\\frac{5}{n}\\right)},"}
+{"id":826,"tex":"\\begin{pmatrix} F_{m+1} & F_m \\\\ F_m & F_{m-1} \\end{pmatrix} \\equiv \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}^m \\pmod n."}
+{"id":827,"tex":"\\bigl(\\tfrac{p}{5}\\bigr)"}
+{"id":828,"tex":"\\left(\\frac{p}{5}\\right) = \\begin{cases} 0 & \\text{if } p = 5\\\\ 1 & \\text{if } p \\equiv \\pm 1 \\pmod 5\\\\ -1 & \\text{if } p \\equiv \\pm 2 \\pmod 5.\\end{cases}"}
+{"id":829,"tex":"F_p \\equiv \\left(\\frac{p}{5}\\right) \\pmod p \\quad \\text{and}\\quad F_{p-\\left(\\frac{p}{5}\\right)} \\equiv 0 \\pmod p."}
+{"id":830,"tex":"\\begin{align}\n\\bigl(\\tfrac{2}{5}\\bigr) &= -1, &F_3  &= 2, &F_2&=1, \\\\\n\\bigl(\\tfrac{3}{5}\\bigr) &= -1, &F_4  &= 3,&F_3&=2, \\\\\n\\bigl(\\tfrac{5}{5}\\bigr) &= 0, &F_5  &= 5, \\\\\n\\bigl(\\tfrac{7}{5}\\bigr) &= -1, &F_8  &= 21,&F_7&=13, \\\\\n\\bigl(\\tfrac{11}{5}\\bigr)& = +1, &F_{10}&  = 55, &F_{11}&=89.\n\\end{align}"}
+{"id":831,"tex":"F_{p\\,-~\\!\\left(\\frac{p}{5}\\right)} \\equiv 0 \\pmod{p^2}."}
+{"id":832,"tex":"5 {F_{\\frac{p \\pm 1}{2}}}^2 \\equiv \\begin{cases}\n\\tfrac{1}{2} \\left (5\\bigl(\\tfrac{p}{5}\\bigr)\\pm 5 \\right ) \\pmod p & \\text{if } p \\equiv 1 \\pmod 4\\\\\n\\tfrac{1}{2} \\left (5\\bigl(\\tfrac{p}{5}\\bigr)\\mp 3 \\right ) \\pmod p & \\text{if } p \\equiv 3 \\pmod 4.\n\\end{cases}"}
+{"id":833,"tex":"\\bigl(\\tfrac{7}{5}\\bigr) = -1: \\qquad \\tfrac{1}{2}\\left(5 \\bigl(\\tfrac{7}{5}\\bigr)+3 \\right ) =-1, \\quad \\tfrac{1}{2} \\left(5\\bigl(\\tfrac{7}{5}\\bigr)-3 \\right )=-4."}
+{"id":834,"tex":"F_3=2 \\text{ and } F_4=3."}
+{"id":835,"tex":"5{F_3}^2=20\\equiv -1 \\pmod {7}\\;\\;\\text{ and }\\;\\;5{F_4}^2=45\\equiv -4 \\pmod {7}"}
+{"id":836,"tex":"\\bigl(\\tfrac{11}{5}\\bigr) = +1: \\qquad  \\tfrac{1}{2}\\left( 5\\bigl(\\tfrac{11}{5}\\bigr)+3 \\right)=4, \\quad \\tfrac{1}{2} \\left(5\\bigl(\\tfrac{11}{5}\\bigr)- 3 \\right)=1."}
+{"id":837,"tex":"F_5=5 \\text{ and } F_6=8."}
+{"id":838,"tex":"5{F_5}^2=125\\equiv 4 \\pmod {11} \\;\\;\\text{ and }\\;\\;5{F_6}^2=320\\equiv 1 \\pmod {11}"}
+{"id":839,"tex":"\\bigl(\\tfrac{13}{5}\\bigr) = -1: \\qquad \\tfrac{1}{2}\\left(5\\bigl(\\tfrac{13}{5}\\bigr)-5 \\right) =-5, \\quad \\tfrac{1}{2}\\left(5\\bigl(\\tfrac{13}{5}\\bigr)+ 5 \\right)=0."}
+{"id":840,"tex":"F_6=8 \\text{ and } F_7=13."}
+{"id":841,"tex":"5{F_6}^2=320\\equiv -5 \\pmod {13} \\;\\;\\text{ and }\\;\\;5{F_7}^2=845\\equiv 0 \\pmod {13}"}
+{"id":842,"tex":"\\bigl(\\tfrac{29}{5}\\bigr) = +1: \\qquad \\tfrac{1}{2}\\left(5\\bigl(\\tfrac{29}{5}\\bigr)-5 \\right)=0, \\quad \\tfrac{1}{2}\\left(5\\bigl(\\tfrac{29}{5}\\bigr)+5 \\right)=5."}
+{"id":843,"tex":"F_{14}=377 \\text{ and } F_{15}=610."}
+{"id":844,"tex":"5{F_{14}}^2=710645\\equiv 0 \\pmod {29} \\;\\;\\text{ and }\\;\\;5{F_{15}}^2=1860500\\equiv 5 \\pmod {29}"}
+{"id":845,"tex":"F_1 = 1,\\ F_3 = 2,\\ F_5 = 5,\\ F_7 = 13,\\ F_9 = {\\color{Red}34} = 2 \\cdot 17,\\ F_{11} = 89,\\ F_{13} = 233,\\ F_{15} = {\\color{Red}610} = 2 \\cdot 5 \\cdot 61."}
+{"id":846,"tex":"F_n = \\sum_{k=0}^{\\left\\lfloor\\frac{n-1}{2}\\right\\rfloor} \\binom{n-k-1}{k}."}
+{"id":847,"tex":"\\frac{x}{1-x-x^2} = x + x^2(1+x) + x^3(1+x)^2 + \\dots + x^{k+1}(1+x)^k + \\dots = \\sum\\limits_{n=0}^\\infty F_n x^n"}
+{"id":848,"tex":"x^n"}
+{"id":849,"tex":"\\textstyle \\binom{5}{0}+\\binom{4}{1}+\\binom{3}{2}"}
+{"id":850,"tex":"2\\times n"}
+{"id":851,"tex":"(F_n F_{n+3})^2 + (2 F_{n+1}F_{n+2})^2 = {F_{2 n+3}}^2."}
+{"id":852,"tex":"\\theta = \\frac{2\\pi}{\\varphi^2} n,\\  r = c \\sqrt{n}"}
+{"id":853,"tex":"F_2=1"}
+{"id":854,"tex":"F_3=2"}
+{"id":855,"tex":"F_4=3"}
+{"id":856,"tex":"F_5=5"}
+{"id":857,"tex":"\\tilde{t}_i"}
+{"id":858,"tex":"t_i = \\tilde{t}_i - b"}
+{"id":859,"tex":"\\tilde{t}_i - b - s_i"}
+{"id":860,"tex":"\\left(\\tilde{t}_i - b - s_i\\right) c"}
+{"id":861,"tex":"d_i = \\left( \\tilde{t}_i - b - s_i \\right)c, \\; i=1,2,\\dots,n"}
+{"id":862,"tex":"d_i = \\sqrt{(x-x_i)^2 + (y-y_i)^2 + (z-z_i)^2}"}
+{"id":863,"tex":"p_i = \\left ( \\tilde{t}_i - s_i \\right )c"}
+{"id":864,"tex":"p_i = d_i + bc, \\;i=1,2,...,n"}
+{"id":865,"tex":"\\left( \\hat{x},\\hat{y},\\hat{z},\\hat{b} \\right) = \\underset{\\left( x,y,z,b \\right)}{\\arg \\min} \\sum_i \\left( \\sqrt{(x-x_i)^2 + (y-y_i)^2 + (z-z_i)^2} + bc - p_i \\right)^2"}
+{"id":866,"tex":"n=1"}
+{"id":867,"tex":"S = 1"}
+{"id":868,"tex":"S = 0"}
+{"id":869,"tex":"\\omega = 2\\pi f"}
+{"id":870,"tex":"f = \\frac{\\omega}{2\\pi} ."}
+{"id":871,"tex":"R_0"}
+{"id":872,"tex":"\\mathit{t} \\to \\mathit{V_t}"}
+{"id":873,"tex":"\\lim_{T \\to \\infty} \\frac{1}{T} \\int_{0}^{T} V_t(\\phi) \\, dt"}
+{"id":874,"tex":"V_t(\\psi) = \\psi"}
+{"id":875,"tex":"\\textit{l}\\,_2^n\\otimes\\textit{l}\\,_2^n"}
+{"id":876,"tex":"0, 1, ..., \\mathit{n}"}
+{"id":877,"tex":"[0,1]"}
+{"id":878,"tex":"\\mathit{CG(F)}"}
+{"id":879,"tex":"\\mathit{F}\\,"}
+{"id":880,"tex":"n > 3"}
+{"id":881,"tex":"\\mathit{n}"}
+{"id":882,"tex":"V_n(F)"}
+{"id":883,"tex":"F"}
+{"id":884,"tex":"axa = a"}
+{"id":885,"tex":"2^{\\aleph_0}"}
+{"id":886,"tex":"A_r = \\textstyle\\sum_{n=0}^{\\infty} 2^{2^{[nr]}}\\! \\big/ \\, 2^{2^{n^2}}"}
+{"id":887,"tex":"r > 0"}
+{"id":888,"tex":"u: \\mathbb{R}^n \\rightarrow \\mathbb{R}"}
+{"id":889,"tex":"K"}
+{"id":890,"tex":"\\Omega"}
+{"id":891,"tex":"\\mathbb{R}^n"}
+{"id":892,"tex":"u"}
+{"id":893,"tex":"Lip_K(\\Omega)"}
+{"id":894,"tex":"\\sup_{x \\in \\Omega, y \\in \\delta\\Omega} \\frac{|u(x) - u(y)|}{|x - y|} = \\sup_{x \\neq y \\in \\Omega} \\frac{|u(x) - u(y)|}{|x - y|}"}
+{"id":895,"tex":"S(\\rho) = -\\operatorname{Tr}(\\rho \\ln \\rho). \\,"}
+{"id":896,"tex":"(A\\land B)\\ne (B\\land A)"}
+{"id":897,"tex":"P\\lor(Q\\land R) = {}"}
+{"id":898,"tex":"(P\\lor Q)\\land(P\\lor R)"}
+{"id":899,"tex":"P\\land (Q\\lor R) ={}"}
+{"id":900,"tex":"(P\\land Q)\\lor(P\\land R)"}
+{"id":901,"tex":"A - \\lambda B"}
+{"id":902,"tex":"p^T (A - \\lambda B) q = 0"}
+{"id":903,"tex":"A - \\lambda I q = 0,"}
+{"id":904,"tex":"\\phi (x)"}
+{"id":905,"tex":"\\phi ((x))"}
+{"id":906,"tex":"(\\psi((((a)))))^2 = \\phi((((a))))"}
+{"id":907,"tex":"\\mathbb{N}"}
+{"id":908,"tex":"\\mathcal{N}(\\mu,\\sigma^2)"}
+{"id":909,"tex":"\\mu\\in\\R"}
+{"id":910,"tex":"\\sigma^2\\in\\R_{>0}"}
+{"id":911,"tex":"x\\in\\R"}
+{"id":912,"tex":"\\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x - \\mu)^2}{2\\sigma^2}}"}
+{"id":913,"tex":"\\Phi\\left(\\frac{x-\\mu}{\\sigma}\\right) = \\frac{1}{2}\\left[1 + \\operatorname{erf}\\left( \\frac{x-\\mu}{\\sigma\\sqrt{2}}\\right)\\right]"}
+{"id":914,"tex":"\\begin{align}\n&\\mu+\\sigma\\sqrt{2} \\operatorname{erf}^{-1}(2p-1) \\\\[1ex]\n& = \\mu + \\sigma \\Phi^{-1}(p)\n\\end{align}"}
+{"id":915,"tex":"\\sigma^2"}
+{"id":916,"tex":"\\sigma\\sqrt{2}\\,\\operatorname{erf}^{-1}(1/2)"}
+{"id":917,"tex":"\\sigma\\sqrt{2/\\pi}"}
+{"id":918,"tex":"0"}
+{"id":919,"tex":"\\tfrac{1}{2} \\log(2\\pi e \\sigma^2)"}
+{"id":920,"tex":"\\exp(\\mu t + \\sigma^2 t^2 / 2)"}
+{"id":921,"tex":"\\exp(i \\mu t - \\sigma^2 t^2 / 2)"}
+{"id":922,"tex":"\\mathcal{I}(\\mu,\\sigma) =\\begin {pmatrix} 1/\\sigma^2 & 0 \\\\ 0 & 2/\\sigma^2\\end{pmatrix}"}
+{"id":923,"tex":"\\mathcal{I}(\\mu,\\sigma^2) =\\begin {pmatrix} 1/\\sigma^2 & 0 \\\\ 0 & 1/(2\\sigma^4)\\end{pmatrix}"}
+{"id":924,"tex":"{ 1 \\over 2 } \\left\\{ \\left( \\frac{\\sigma_0}{\\sigma_1} \\right)^2 + \\frac{(\\mu_1 - \\mu_0)^2}{\\sigma_1^2} - 1 + \\ln {\\sigma_1^2 \\over \\sigma_0^2} \\right\\}"}
+{"id":925,"tex":"\\mu + \\sigma \\frac{\\frac{1}{\\sqrt{2\\pi}} e^{\\frac{-\\left(q_p\\left(\\frac{X-\\mu}{\\sigma}\\right)\\right)^2}{2}}}{1-p}"}
+{"id":926,"tex":"f(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} \\exp{\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)}\\,."}
+{"id":927,"tex":"\\mu=0"}
+{"id":928,"tex":"\\sigma^2 =1"}
+{"id":929,"tex":"\\varphi(z) = \\frac{e^{-z^2/2}}{\\sqrt{2\\pi}}\\,."}
+{"id":930,"tex":"\\varphi(z)"}
+{"id":931,"tex":"\\frac{1}{\\sqrt{2\\pi}}"}
+{"id":932,"tex":"z=0"}
+{"id":933,"tex":"z=+1"}
+{"id":934,"tex":"\\varphi(z) = \\frac{1}{\\sqrt\\pi} e^{-z^2},"}
+{"id":935,"tex":"\\varphi(z) = e^{-\\pi z^2},"}
+{"id":936,"tex":"\\sigma^2 = \\frac{1}{2\\pi}."}
+{"id":937,"tex":"X=\\sigma Z + \\mu"}
+{"id":938,"tex":"Z=(X-\\mu)/\\sigma"}
+{"id":939,"tex":"f(x \\mid \\mu, \\sigma^2) =\\frac 1 \\sigma \\varphi\\left(\\frac{x-\\mu} \\sigma \\right)\\,."}
+{"id":940,"tex":"1/\\sigma"}
+{"id":941,"tex":"N(\\mu,\\sigma^2)"}
+{"id":942,"tex":"X \\sim \\mathcal{N}(\\mu,\\sigma^2)."}
+{"id":943,"tex":"f(x) = \\sqrt{\\frac\\tau{2\\pi}} e^{-\\tau(x-\\mu)^2/2}."}
+{"id":944,"tex":"\\tau'=1/\\sigma"}
+{"id":945,"tex":"f(x) = \\frac{\\tau'}{\\sqrt{2\\pi}} e^{-(\\tau')^2(x-\\mu)^2/2}."}
+{"id":946,"tex":"\\textstyle\\theta_1=\\frac{\\mu}{\\sigma^2}"}
+{"id":947,"tex":"\\textstyle\\theta_2=-\\frac{1}{2\\sigma^2}"}
+{"id":948,"tex":"\\Phi(x) = \\frac 1 {\\sqrt{2\\pi}} \\int_{-\\infty}^x e^{-t^2/2} \\, dt\\,."}
+{"id":949,"tex":"\\operatorname{erf}(x)"}
+{"id":950,"tex":"\\operatorname{erf}(x) = \\frac 1 {\\sqrt\\pi} \\int_{-x}^x e^{-t^2} \\, dt = \\frac 2 {\\sqrt\\pi} \\int_0^x e^{-t^2} \\, dt\\,."}
+{"id":951,"tex":"\\Phi(x) = \\frac{1}{2} \\left[1 + \\operatorname{erf}\\left( \\frac x {\\sqrt 2} \\right) \\right]."}
+{"id":952,"tex":"F(x) = \\Phi{\\left(\\frac{x-\\mu} \\sigma \\right)} = \\frac{1}{2} \\left[1 + \\operatorname{erf}\\left(\\frac{x-\\mu}{\\sigma \\sqrt 2 }\\right)\\right]."}
+{"id":953,"tex":"\\operatorname{P}(a < x \\le b) = \\frac12 \\left[\n  \\operatorname{erf}\\left(\\frac{b-\\mu}{\\sigma \\sqrt{2}}\\right) - \n  \\operatorname{erf}\\left(\\frac{a-\\mu}{\\sigma \\sqrt{2}}\\right)\n\\right]"}
+{"id":954,"tex":"Q(x) = 1 - \\Phi(x)"}
+{"id":955,"tex":"\\int \\Phi(x)\\, dx = x\\Phi(x) + \\varphi(x) + C."}
+{"id":956,"tex":"\\Phi(x)=\\frac{1}{2} + \\frac{1}{\\sqrt{2\\pi}} e^{-x^2/2} \\sum_{n=0}^{\\infty} \\frac{1}{(2n+1)!!}x^{2n+1} \\,."}
+{"id":957,"tex":"!!"}
+{"id":958,"tex":"\\varphi(x) = \\frac{1}{\\sqrt{2\\pi}} \\sum_{n=0}^\\infty \\frac{(-1)^n}{n!\\,2^n} x^{2n}"}
+{"id":959,"tex":"\\Phi(x) = \\frac{1}{2} + \\frac{1}{\\sqrt{2\\pi}} \\sum_{n=0}^{\\infty} \\frac{(-1)^n}{n!\\, 2^n (2n+1)} x^{2n+1} ."}
+{"id":960,"tex":"\\Phi(x) = \\sum_{n=0}^\\infty \\frac{\\Phi^{(n)}(x_0)}{n!}(x-x_0)^n\\,,"}
+{"id":961,"tex":"\\begin{align}\n\\Phi^{(0)}(x_0) &= \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{x_0}e^{-t^2/2}\\,dt \\\\\n\\Phi^{(1)}(x_0) &= \\frac{1}{\\sqrt{2\\pi}}e^{-x_0^2/2} \\\\\n\\Phi^{(n)}(x_0) &= -\\left(x_0\\Phi^{(n-1)}(x_0)+(n-2)\\Phi^{(n-2)}(x_0)\\right), & n \\geq 2\\,.\n\\end{align}"}
+{"id":962,"tex":"\\mu-n\\sigma"}
+{"id":963,"tex":"\\mu+n\\sigma"}
+{"id":964,"tex":"F(\\mu+n\\sigma) - F(\\mu-n\\sigma) = \\Phi(n)-\\Phi(-n) = \\operatorname{erf} \\left(\\frac{n}{\\sqrt{2}}\\right)."}
+{"id":965,"tex":"n=1,2,\\ldots , 6"}
+{"id":966,"tex":"p= F(\\mu+n\\sigma) - F(\\mu-n\\sigma)"}
+{"id":967,"tex":"1-p"}
+{"id":968,"tex":"\\text{or }1\\text{ in }(1-p)"}
+{"id":969,"tex":"1 - p \\approx \\frac{\\sqrt{2}}{n\\sqrt{\\pi e^{n^2}}}"}
+{"id":970,"tex":"\\Phi^{-1}(p) = \\sqrt2\\operatorname{erf}^{-1}(2p - 1), \\quad p\\in(0,1)."}
+{"id":971,"tex":"F^{-1}(p) = \\mu + \\sigma\\Phi^{-1}(p)\n= \\mu + \\sigma\\sqrt 2 \\operatorname{erf}^{-1}(2p - 1), \\quad p\\in(0,1)."}
+{"id":972,"tex":"\\Phi^{-1}(p)"}
+{"id":973,"tex":"\\mu + z_p\\sigma"}
+{"id":974,"tex":"\\mu \\pm z_p\\sigma"}
+{"id":975,"tex":"z_{0.975}"}
+{"id":976,"tex":"\\mu \\pm 1.96\\sigma"}
+{"id":977,"tex":"z_p"}
+{"id":978,"tex":"\\sqrt 2 \\operatorname{erf}^{-1}(p)=\\Phi^{-1}\\left(\\frac{p+1}{2}\\right)"}
+{"id":979,"tex":"\\Phi^{-1}(p)=-\\sqrt{\\ln\\frac{1}{p^2}-\\ln\\ln\\frac{1}{p^2}-\\ln(2\\pi)}+\\mathcal{o}(1)."}
+{"id":980,"tex":"\\Phi(x)"}
+{"id":981,"tex":"x_n = x_{n-1} - \\frac{\\Phi(x_{n-1}) - q}{\\varphi(x_{n-1})}\\,."}
+{"id":982,"tex":"\\sigma^2 > 0"}
+{"id":983,"tex":"x=\\mu,"}
+{"id":984,"tex":"x<\\mu,"}
+{"id":985,"tex":"x>\\mu,"}
+{"id":986,"tex":"x=\\mu."}
+{"id":987,"tex":"f'(x)=-\\frac{x-\\mu}{\\sigma^2} f(x)."}
+{"id":988,"tex":"f''(x) =  \\frac{(x-\\mu)^2 - \\sigma^2}{\\sigma^4} f(x)."}
+{"id":989,"tex":"x=\\mu-\\sigma"}
+{"id":990,"tex":"x=\\mu+\\sigma."}
+{"id":991,"tex":"\\sigma=1"}
+{"id":992,"tex":"\\varphi'(x)=-x\\varphi(x)."}
+{"id":993,"tex":"\\varphi''(x)=(x^2-1)\\varphi(x)"}
+{"id":994,"tex":"\\varphi^{(n)}(x) = (-1)^n\\operatorname{He}_n(x)\\varphi(x),"}
+{"id":995,"tex":"\\operatorname{He}_n(x)"}
+{"id":996,"tex":"Z = (X-\\mu)/\\sigma"}
+{"id":997,"tex":"X^p"}
+{"id":998,"tex":"|X|^p"}
+{"id":999,"tex":"\\operatorname{E}\\left[(X-\\mu)^p\\right] =\n      \\begin{cases}\n        0 & \\text{if }p\\text{ is odd,} \\\\\n        \\sigma^p (p-1)!! & \\text{if }p\\text{ is even.}\n      \\end{cases}"}
