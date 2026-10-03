@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Refresh apt package lists
+        run: sudo apt-get update # runner image may ship stale lists; needed for install-crystal's apt deps
+
       - name: Install Crystal
         uses: crystal-lang/install-crystal@v1
         with:
