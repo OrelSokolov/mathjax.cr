@@ -11,7 +11,7 @@ require "./mathjax/html/renderer"
 require "./mathjax/svg/renderer"
 
 module MathJax
-  VERSION = "0.1.0"
+  VERSION = "1.0.0"
 
   # Parse a TeX expression into an MML tree (<math> root).
   # Raises `TeX::TexError` on invalid input.
