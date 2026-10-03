@@ -13,7 +13,7 @@ require "./mathjax/svg/paths_renderer"
 require "./mathjax/fonts/tex_paths"
 
 module MathJax
-  VERSION = "1.0.0"
+  VERSION = "1.1.0"
 
   # Parse a TeX expression into an MML tree (<math> root).
   # Raises `TeX::TexError` on invalid input.
