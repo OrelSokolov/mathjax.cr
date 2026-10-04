@@ -6,6 +6,7 @@
 /bin/
 .shards/
 *.dwarf
+shard.lock
 
 # node
 node_modules/
@@ -15,3 +16,8 @@ node_modules/
 
 # generated artifacts
 /test/datasets/diffs.txt
+/test/render/
+dataset/png/
+
+# python
+__pycache__/
